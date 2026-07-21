@@ -8,12 +8,12 @@ A living review standard with de-identified revision cases and bilingual writing
 
 ---
 
-## Boundary
+## What this repo includes / excludes
 
-**This repo publishes the review standard and examples only. The full personal writing operating system is not open-sourced; all cases are fictional or de-identified.**
+**Includes:** the review standard, principle pages, short tradition notes, and fictional or de-identified revision cases.  
+**Excludes:** raw identifiable drafts, client/employer/project material, and unpublished process ledgers.
 
-- Public: standard dimensions, review questions, veto rules, tradition excerpts, de-identified cases
-- Private: personal writing operating system (SOPs, workflows, real tasks), `inbox/` drafts, raw before/after edits
+Cases must be fictionalized before intake; local drafts live in `inbox/` (not versioned).
 
 ---
 

@@ -2,9 +2,9 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** 落地公开仓库 `quality-ai-writing`：活标准 + 八维原则 + 两篇传统打底 + 三个脱敏种子判例 + 案例校验脚本 + 入库技能，并写清公开/私有边界。
+**Goal:** 落地公开仓库 `quality-ai-writing`：活标准 + 八维原则 + 两篇传统打底 + 三个脱敏种子判例 + 案例校验脚本 + 入库技能，并写清收录范围。
 
-**Architecture:** 单仓库 Markdown 活标准。`STANDARD.md` 为成文法；`principles/` 展开八维；`cases/` 仅存虚构/脱敏判例；`inbox/` gitignore；`skills/case-intake` 把本地改稿整理成案例草稿；`scripts/check_cases.py` 校验判例格式与维度标签。私人写作操作系统不进仓。
+**Architecture:** 单仓库 Markdown 活标准。`STANDARD.md` 为成文法；`principles/` 展开八维；`cases/` 仅存虚构/脱敏判例；`inbox/` gitignore；`skills/case-intake` 把本地改稿整理成案例草稿；`scripts/check_cases.py` 校验判例格式与维度标签。未脱敏材料与未发表台账不进仓。
 
 **Tech Stack:** Markdown；Python 3.11+（stdlib only：`pathlib`、`re`、`sys`）；pytest；Agent Skill（`SKILL.md`）。
 
@@ -12,7 +12,7 @@
 
 - 仓库名：`quality-ai-writing`；中文名：高质量 AI 写作
 - 管辖：知识工作文档；中英通用；仓库正文中文为主 + `README.en.md`
-- 公开/私有：框架公开；私人 SOP/真料私有；`inbox/` 永不提交；案例仅虚构脱敏
+- 收录范围：标准与脱敏示范收录；未脱敏真料不收录；`inbox/` 不进版本库；案例仅虚构脱敏
 - 许可：代码 MIT；文本 CC BY 4.0
 - 不做：文档站、独立评审技能仓、评分产品、创意写作覆盖
 - 规范来源：`docs/superpowers/specs/2026-07-21-quality-ai-writing-design.md`
@@ -44,7 +44,7 @@
 - Test: 无（文档任务；Task 5 起测脚本）
 
 **Interfaces:**
-- Consumes: 设计文档 §4 公开/私有分层、§7 仓库结构
+- Consumes: 设计文档 §4 收录范围、§7 仓库结构
 - Produces: 可克隆的空壳仓；README 含边界句与「现状」占位
 
 - [ ] **Step 1: 写 `.gitignore`**
@@ -80,9 +80,8 @@ inbox/*
 内容要点：
 - 修法节奏：约 10 条案例或每季度
 - 修法检查：最密维度、未接住病征、从未被引用的原则（考虑删除）
-- 脱敏红线与公开/私有表（从设计 §4 抄入）
-- CHANGELOG 只写结论与公开案例 ID，不写私人文档名
-- 私人操作系统：私人写作体系，不在此开源
+- 脱敏红线与收录范围表（从设计 §4 抄入）
+- CHANGELOG 只写结论与公开案例 ID，不写可识别原文档名
 
 - [ ] **Step 5: 写 `CHANGELOG.md`**
 
@@ -99,7 +98,7 @@ inbox/*
 
 `README.md` 必须含：
 1. 标题与一句话定位（署名前的质量）
-2. **边界**：本仓库是公开评审标准与示范；完整个人写作操作系统不在此开源；案例均为虚构/脱敏
+2. **收录范围**：包含标准与脱敏示范；不包含未脱敏真料与未发表台账；案例均为虚构/脱敏
 3. 与 humanizer 的差别（一句）
 4. 目录导航：STANDARD / principles / cases / traditions / skills
 5. **现状**：版本 `0.1.0`；案例数 `3`；上次修法 `2026-07-21`（初版）
@@ -111,7 +110,7 @@ inbox/*
 
 ```bash
 git add .gitignore LICENSE LICENSE-CONTENT MAINTENANCE.md CHANGELOG.md inbox/README.md README.md README.en.md
-git commit -m "docs: scaffold repo with public/private boundary"
+git commit -m "docs: scaffold repo with intake scope boundary"
 ```
 
 ---
@@ -186,7 +185,7 @@ git commit -m "docs: add STANDARD v0.1.0"
 - Test: 无
 
 **Interfaces:**
-- Consumes: STANDARD 维度 slug；私人侧原则仅作思想对齐，**不复制私人 SOP 原文**
+- Consumes: STANDARD 维度 slug；**不把未脱敏材料写入判例**
 - Produces: 每文件同一模板
 
 每文件模板：
@@ -229,7 +228,7 @@ git commit -m "docs: add STANDARD v0.1.0"
 | qi | 文气 | 匀速排比、段落无呼吸 |
 | decorum | 得体 | 翻译腔、语体错位 |
 
-公开写作可吸收的公开层信号（改写进 `stale-words` / `logic` / `intent`，勿整段搬私人操作系统原文）：
+公开写作可吸收的公开层信号（改写进 `stale-words` / `logic` / `intent`，勿整段粘贴未脱敏原文）：
 - 抽象名词与万能排比密集
 - 主体可替换句仍成立
 - 「因此」无真实推导
@@ -268,7 +267,7 @@ git commit -m "docs: add eight principle pages"
 必含：
 - 垂死隐喻 / 假白南充句式与 AI 套话的对应
 - 六条规则中与「陈言务去」「分寸」直接相关的 2–3 条短摘
-- 注明：规则是启发式，不是科学定律（对齐私人体系「来源使用原则」的公开表述）
+- 注明：规则是启发式，不是科学定律
 
 - [ ] **Step 3: Commit**
 
@@ -533,7 +532,7 @@ description: >-
 1. 默认写入本地 `inbox/`，不要直接写入 `cases/`。
 2. 发现疑似真实客户、雇主、项目、内部系统名、精确内部数据时，必须列出「脱敏待处理」清单；不得假装已安全。
 3. 维度标签只能使用：intent, logic, selection, sources, proportion, stale-words, qi, decorum。
-4. 不复制用户的私人写作操作系统 / SOP 原文进公开文件。
+4. 不把未脱敏材料或未发表流程台账原文写进将入库的判例。
 
 ## 流程
 1. 读取改前、改后文本（若用户只给一段，询问缺的一侧）。
@@ -583,9 +582,9 @@ Expected: 全部 PASS / OK
 - [ ] 八个 principles 无空段  
 - [ ] 两篇 traditions  
 - [ ] 三个 cases 通过校验  
-- [ ] README 含公开/私有边界句与现状节  
+- [ ] README 含收录范围与现状节  
 - [ ] inbox gitignore 生效（`git check-ignore -v inbox/draft.md` 在创建临时文件后应命中）  
-- [ ] 无私人 SOP 原文、无真实机构名  
+- [ ] 无未脱敏原文、无真实机构名  
 
 - [ ] **Step 3: 若有修正，提交**
 
@@ -604,14 +603,14 @@ git commit -m "docs: finalize v0.1 consistency pass"
 | 设计要求 | Task |
 |---|---|
 | 脚手架 + 许可 + MAINTENANCE | 1 |
-| 公开/私有边界写入 README/MAINTENANCE | 1 |
+| 收录范围写入 README/MAINTENANCE | 1 |
 | STANDARD v0.1 | 2 |
 | principles ×8 | 3 |
 | traditions ×2 | 4 |
 | seed cases ×3 + check_cases.py | 5 |
 | case-intake 技能 | 6 |
 | CHANGELOG + 现状节 | 1, 7 |
-| 不公开私人 SOP | 全局约束 + Task 3/6 硬规则 |
+| 不收录未脱敏材料与未发表台账 | 全局约束 + Task 3/6 硬规则 |
 
 ## Placeholder Scan
 
