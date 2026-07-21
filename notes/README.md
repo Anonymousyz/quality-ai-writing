@@ -13,3 +13,7 @@
 | [scene-choices.md](scene-choices.md) | 结论先行/说清楚等场景化选择 |
 | [toulmin-warrant.md](toulmin-warrant.md) | 主张—依据之间的保证（Warrant） |
 | [mece.md](mece.md) | 分类时尽量不重不漏（启发式） |
+| [veto-scan.md](veto-scan.md) | 署名前一票否决快扫 |
+| [evidence-ladder.md](evidence-ladder.md) | 证据阶梯 ↔ 声称语气 |
+| [cars-intro.md](cars-intro.md) | 研究引言 CARS（场景子集） |
+| [english-knowledge-prose.md](english-knowledge-prose.md) | 英文知识工作散文纪律 |

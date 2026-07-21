@@ -12,6 +12,8 @@
 
 修订后更新 `STANDARD.md` 版本号，并在 `CHANGELOG.md` 中注明依据的公开案例 ID。
 
+**覆盖抽查：** `python scripts/case_coverage.py` — 八维应各有 ≥1 条判例标签；某维长期为 0 则优先补判例或考虑降级。
+
 ## 规则准入（进入当前标准的条件）
 
 一条规则要写进 `STANDARD.md` / 默认流程，须同时满足：

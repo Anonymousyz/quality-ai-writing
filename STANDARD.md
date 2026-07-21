@@ -1,6 +1,6 @@
 # 高质量 AI 写作 · 标准
 
-**版本：** 0.5.0  
+**版本：** 0.7.0  
 **范围：** 知识工作文档（方案、评审、报告、决策备忘、README/技术文档）；中英文通用。
 
 分层骨架借桐城「义理·考据·词章」相济（见 `traditions/tongcheng-yifa.md`），不是复刻古文戒律。
@@ -14,9 +14,11 @@
 
 开始前至少问三句：这篇解决什么问题？哪些是事实、哪些是解释或选择？谁读完要理解、判断或完成什么？
 
-动笔前试写一句话核心（写不出则先补理解，见 `notes/understanding-ceiling.md`、`traditions/lu-ji-wenfu.md`）。读者与场景见 `notes/reader-first.md`、`notes/scene-choices.md`。
+动笔前试写一句话核心（写不出则先补理解，见 `notes/understanding-ceiling.md`、`traditions/lu-ji-wenfu.md`）。读者与场景见 `notes/reader-first.md`、`notes/scene-choices.md`。研究类开篇可选用 CARS（`notes/cars-intro.md`）。
 
 ## 一票否决
+
+快扫动作见 `notes/veto-scan.md`。
 
 1. 关键事实错误或编造（含编造引文、数据、来源）
 2. 关键论断来源不可溯
@@ -33,17 +35,17 @@
 ## 考据
 
 4. 来源 (`sources`) — 关键事实、数据、引文是否可溯源？来源是否权威且被正确转述？
-5. 分寸 (`proportion`) — 声称强度与证据强度是否匹配？
+5. 分寸 (`proportion`) — 声称强度与证据强度是否匹配？（阶梯：`notes/evidence-ladder.md`）
 
 ## 辞章
 
 6. 陈言务去 (`stale-words`) — 套话、空话、AI 腔是否已去掉？每句话是否有信息量？（辞达：`traditions/su-shi-cida.md`）
 7. 文气 (`qi`) — 一口气读下来是否断气？
-8. 得体 (`decorum`) — 语体与场景是否匹配？中文是否地道中文、英文是否地道英文？
+8. 得体 (`decorum`) — 语体与场景是否匹配？中文是否地道中文、英文是否地道英文？（英文纪律：`notes/english-knowledge-prose.md`）
 
-详情：`principles/` · `notes/` · `traditions/`。
+详情：`principles/` · `notes/` · `traditions/` · `cases/`。
 
-**技能：** `ai-prose-detect`（套话信号）· `mock-reader`（模拟复述）· `case-intake`（判例草稿）。模拟读者**不能**替代真人审阅。
+**技能：** `pre-sign-review`（署名前全检）· `ai-prose-detect`（套话信号）· `mock-reader`（模拟复述）· `case-intake`（判例草稿）。模拟读者**不能**替代真人审阅。脚本：`detect_prose_signals.py`（命中≠定罪）· `case_coverage.py`（八维判例覆盖）。
 
 ## 终审
 
@@ -55,6 +57,6 @@
 
 1. 分清模式与写前三问；钉读者与场景。  
 2. 先扫否决；触发即不合格。  
-3. 按风险选深度：ai-prose-detect / mock-reader / 八维全检。  
-4. 修改先大后小；一段一意；核心主张补 Warrant；事实核验独立成门。  
+3. 按风险选深度：pre-sign-review / ai-prose-detect / mock-reader。  
+4. 修改先大后小；一段一意；核心主张补 Warrant；声称对齐证据阶梯；事实核验独立成门。  
 5. 脱敏后 case-intake 入库；修法见 `MAINTENANCE.md`。

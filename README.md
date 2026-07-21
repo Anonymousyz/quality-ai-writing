@@ -29,12 +29,14 @@
 |---|---|
 | [`STANDARD.md`](STANDARD.md) | 写前模式 + 一票否决 + 三层八维 + 终审 |
 | [`principles/`](principles/) | 每维一文件：定义、问句、病征、改法 |
-| [`notes/`](notes/) | 过程短注：模式、结构、Warrant、MECE、读者、场景等 |
+| [`notes/`](notes/) | 过程短注：否决、证据阶梯、CARS、Warrant、MECE 等 |
 | [`cases/`](cases/) | 脱敏后的第一稿→定稿对照判例 |
-| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射（13 篇） |
+| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射 |
+| [`skills/pre-sign-review/`](skills/pre-sign-review/) | 署名前全检（否决→八维） |
 | [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | AI 腔 / 套话信号快检 |
 | [`skills/mock-reader/`](skills/mock-reader/) | 模拟读者复述与追问 |
 | [`skills/case-intake/`](skills/case-intake/) | 改稿判例草稿 |
+| [`scripts/`](scripts/) | 判例校验、信号启发式、维度覆盖 |
 
 本地草稿放 [`inbox/`](inbox/)（gitignore，不进版本库）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。
 
@@ -43,11 +45,20 @@
 把本仓 `skills/<技能名>` 目录放到对应 Agent 的 skills 路径（Windows 把 `~` 换成 `%USERPROFILE%`）：
 
 ```text
-Cursor:      ~/.cursor/skills/ai-prose-detect
+Cursor:      ~/.cursor/skills/pre-sign-review
+             ~/.cursor/skills/ai-prose-detect
              ~/.cursor/skills/mock-reader
              ~/.cursor/skills/case-intake
 Claude Code: ~/.claude/skills/...
 Codex:       ~/.codex/skills/...
+```
+
+### 本地检查
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/check_cases.py
+python scripts/case_coverage.py
 ```
 
 ---
@@ -56,12 +67,12 @@ Codex:       ~/.codex/skills/...
 
 | 项 | 值 |
 |---|---|
-| 版本 | `0.5.0` |
-| 案例数 | `3` |
-| 传统篇 | `13` |
-| 过程短注 | `9` |
-| 技能 | `3`（检测 + 模拟读者 + 入库） |
-| 上次修法 | `2026-07-21`（陆机、苏轼、桐城、mock-reader） |
+| 版本 | `0.7.0` |
+| 案例数 | `11` |
+| 传统篇 | `15` |
+| 过程短注 | `13` |
+| 技能 | `4` |
+| 上次修法 | `2026-07-21`（八维判例全覆盖 + pre-sign-review） |
 
 ---
 

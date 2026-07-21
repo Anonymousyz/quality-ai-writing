@@ -36,5 +36,5 @@ Orwell 对「因此」装饰性用法的批评见 `traditions/orwell-politics-an
 
 ## 关联判例
 
-- 待积累（逻辑断裂、伪「因此」类病征优先入库）
-- 可与 `cases/2026-07-21-no-judgment.md`、`cases/2026-07-21-overclaim-demo.md` 对照：无判断与过度声称常伴推导空洞
+- `cases/2026-07-21-empty-therefore.md` — 空「因此」、缺 Warrant
+- 对照：`cases/2026-07-21-no-judgment.md`、`cases/2026-07-21-overclaim-demo.md`（无判断与过度声称常伴推导空洞）

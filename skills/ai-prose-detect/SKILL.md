@@ -53,6 +53,16 @@ description: >-
 
 - 万能排比、段段同构、标题伪 MECE（见 notes/mece.md）  
 
+## 可选：本地启发式脚本
+
+仓库内 `scripts/detect_prose_signals.py` 用正则做**浅层**命中（套话、空「因此」、翻译腔、过强断言等）。用法：
+
+```bash
+python scripts/detect_prose_signals.py path/to/draft.md
+```
+
+脚本命中只是复查提示，**不能**替代本技能的引用原文与人工判断；无命中也不等于合格。
+
 ## 流程
 
 1. 确认文稿语言（中/英）与场景（若未知，按知识工作文档处理）。  

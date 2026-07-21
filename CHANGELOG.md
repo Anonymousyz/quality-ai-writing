@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.7.0] - 2026-07-21
+
+### Added
+- Notes: veto-scan, evidence-ladder, cars-intro, english-knowledge-prose
+- Traditions: Swales CARS; Lanham *Revising Prose*
+- Cases (11 total): false-balance, unsourced-claim, appendix-dump, uniform-rhythm, en-overclaim
+- Skill: `pre-sign-review` — veto then eight dimensions (no auto-score)
+- Scripts: `case_coverage.py`; cases/README index
+- Tests: unittest for check_cases; coverage requires all 8 dimensions tagged
+
+### Changed
+- STANDARD → 0.7.0; all principles link live cases; check_cases skips README.md
+
+## [0.6.0] - 2026-07-21
+
+### Added
+- Seed cases: empty「因此」(logic/proportion), fake MECE (selection/stale-words), translationese (decorum/qi)
+- Script: `scripts/detect_prose_signals.py` — stdlib regex heuristics; advisory exit 0
+- Tests: `tests/test_detect_prose_signals.py`
+
+### Changed
+- STANDARD → 0.6.0; README case count 6; skill points to the script
+
 ## [0.5.0] - 2026-07-21
 
 ### Added

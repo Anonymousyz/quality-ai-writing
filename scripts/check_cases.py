@@ -48,7 +48,9 @@ def check_cases(cases_dir: Path) -> list[str]:
     errors: list[str] = []
     if not cases_dir.is_dir():
         return [f"missing cases dir: {cases_dir}"]
-    files = sorted(cases_dir.glob("*.md"))
+    files = sorted(
+        p for p in cases_dir.glob("*.md") if p.name.lower() != "readme.md"
+    )
     if not files:
         return ["no case files found"]
     for path in files:

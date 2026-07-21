@@ -17,7 +17,9 @@
 | [lu-ji-wenfu.md](lu-ji-wenfu.md) | 意—文损耗；警策句 |
 | [su-shi-cida.md](su-shi-cida.md) | 辞达；行止 |
 | [tongcheng-yifa.md](tongcheng-yifa.md) | 义理·考据·词章；义法 |
+| [swales-cars.md](swales-cars.md) | 研究引言占位（CARS） |
+| [lanham-revising-prose.md](lanham-revising-prose.md) | 名义化急救；谁对谁做什么 |
 
-**论证 / 分类工具（过程短注）：** `notes/toulmin-warrant.md`、`notes/mece.md`。
+**论证 / 分类工具（过程短注）：** `notes/toulmin-warrant.md`、`notes/mece.md`、`notes/cars-intro.md`、`notes/evidence-ladder.md`。
 
 **来源使用：** 古典文论与现代指南提供问题与工具；跨传统呼应不等于科学定律。经验性规则一律当启发式；归因与引文以原书为准。

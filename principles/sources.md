@@ -35,5 +35,5 @@ Strunk & White 对正式引文作为 documentary evidence 的处理要求：先�
 
 ## 关联判例
 
-- 见 `cases/2026-07-21-overclaim-demo.md`（试点 demo 写成「已验证可推广」，常与来源强度一并失控）
-- 编造引文类：待积累（触发一票否决，判例中示范如何改为可溯或删除）
+- `cases/2026-07-21-unsourced-claim.md` — 悬空「研究表明 / 92%」
+- `cases/2026-07-21-overclaim-demo.md` — demo 与不可核效率数字

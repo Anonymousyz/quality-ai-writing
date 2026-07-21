@@ -35,5 +35,7 @@
 
 ## 关联判例
 
-- 见 `cases/2026-07-21-overclaim-demo.md`（试点 demo 写成「已验证可推广」）
-- 假平衡、无立场类：待积累
+- `cases/2026-07-21-overclaim-demo.md` — demo 写成可推广
+- `cases/2026-07-21-false-balance.md` — 假平衡
+- `cases/2026-07-21-en-overclaim.md` — 英文 overclaim
+- 阶梯：`notes/evidence-ladder.md`

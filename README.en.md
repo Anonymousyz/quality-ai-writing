@@ -29,12 +29,14 @@ De-AI-ing covers only part of the prose layer. This work covers the full pre-sig
 |---|---|
 | [`STANDARD.md`](STANDARD.md) | Task modes + veto + eight dimensions + final judgment |
 | [`principles/`](principles/) | One file per dimension |
-| [`notes/`](notes/) | Process notes: modes, structure, Warrant, MECE, reader, scenes, … |
+| [`notes/`](notes/) | Process notes: veto, evidence ladder, CARS, Warrant, MECE, … |
 | [`cases/`](cases/) | Before/after revision cases (de-identified) |
-| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (13 notes) |
+| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting |
+| [`skills/pre-sign-review/`](skills/pre-sign-review/) | Full pre-sign review (veto → eight dims) |
 | [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | Fast scan for AI-ish / stale prose signals |
 | [`skills/mock-reader/`](skills/mock-reader/) | Mock-reader paraphrase and questions |
 | [`skills/case-intake/`](skills/case-intake/) | Draft cases from before/after edits |
+| [`scripts/`](scripts/) | Case checks, prose heuristics, dimension coverage |
 
 Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGELOG.md) and [`MAINTENANCE.md`](MAINTENANCE.md).
 
@@ -43,11 +45,20 @@ Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGEL
 Copy each folder under `skills/` into your Agent skills path (on Windows, replace `~` with `%USERPROFILE%`):
 
 ```text
-Cursor:      ~/.cursor/skills/ai-prose-detect
+Cursor:      ~/.cursor/skills/pre-sign-review
+             ~/.cursor/skills/ai-prose-detect
              ~/.cursor/skills/mock-reader
              ~/.cursor/skills/case-intake
 Claude Code: ~/.claude/skills/...
 Codex:       ~/.codex/skills/...
+```
+
+### Local checks
+
+```bash
+python -m unittest discover -s tests -v
+python scripts/check_cases.py
+python scripts/case_coverage.py
 ```
 
 ---
@@ -56,12 +67,12 @@ Codex:       ~/.codex/skills/...
 
 | Item | Value |
 |---|---|
-| Version | `0.5.0` |
-| Cases | `3` |
-| Tradition notes | `13` |
-| Process notes | `9` |
-| Skills | `3` (detect + mock-reader + intake) |
-| Last revision | `2026-07-21` (Lu Ji, Su Shi, Tongcheng, mock-reader) |
+| Version | `0.7.0` |
+| Cases | `11` |
+| Tradition notes | `15` |
+| Process notes | `13` |
+| Skills | `4` |
+| Last revision | `2026-07-21` (full dim case coverage + pre-sign-review) |
 
 ---
 

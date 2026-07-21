@@ -35,5 +35,6 @@ Orwell / Strunk 的短与有力见相应传统篇。Williams《Style》：人物
 
 ## 关联判例
 
-- 见 `cases/2026-07-21-stale-words-enable.md`（空话常与匀速排比、段段同构一并出现）
-- 纯文气（节奏/换气）专项：待积累
+- `cases/2026-07-21-uniform-rhythm.md` — 匀速「我们应当」排比
+- `cases/2026-07-21-translationese.md` — 名义化长句断气
+- 旁参：`cases/2026-07-21-stale-words-enable.md`

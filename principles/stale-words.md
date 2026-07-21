@@ -35,5 +35,5 @@
 
 ## 关联判例
 
-- 见 `cases/2026-07-21-stale-words-enable.md`（「赋能 / 值得注意的是」空转）
-- 其余套话变体：待积累
+- `cases/2026-07-21-stale-words-enable.md` — 赋能空转
+- `cases/2026-07-21-fake-mece.md`、`cases/2026-07-21-uniform-rhythm.md`、`cases/2026-07-21-en-overclaim.md`

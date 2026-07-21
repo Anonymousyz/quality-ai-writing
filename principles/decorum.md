@@ -35,5 +35,6 @@ Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and
 
 ## 关联判例
 
-- 待积累（翻译腔、语体错位类优先）
-- 场合违规（敏感信息、未授权引用）走一票否决，不必等本维细评
+- `cases/2026-07-21-translationese.md` — 翻译腔 / 主体失踪
+- 场合违规走一票否决（`notes/veto-scan.md`），不必等本维细评
+- 英文纪律：`notes/english-knowledge-prose.md`、`traditions/lanham-revising-prose.md`
