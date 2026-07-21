@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-"Have something to say, and say it as clearly as you can." — Matthew Arnold（常被写作指南转述的要旨）；知识工作语境下可对照：先有 claim，再有 elaboration。亦见 William Zinsser, *On Writing Well* 对 clutter 与 clarity 的强调：空话往往掩盖「无话可说」。
+William Zinsser, *On Writing Well*：clutter 常掩盖「无话可说」；写作是思考的显现。详见 `traditions/zinsser-on-writing-well.md`。先有 claim，再有 elaboration——过程见 `notes/task-modes.md`。
 
 ## 关联判例
 

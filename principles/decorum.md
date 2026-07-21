@@ -27,11 +27,11 @@
 
 ## 中文出处
 
-「文以气为主」，而气之清浊、体之高下，亦关乎对象与体式（曹丕《典论·论文》有「文非一体，鲜能备善」一类体式意识）。余光中《中文的常态与变态》批评欧化变态，可作翻译腔对照；后续可收入 `traditions/` 路线图候选。
+「文非一体，鲜能备善。」——曹丕《典论·论文》（体式合宜）。中文翻译腔与欧化变态，见余光中《中文的常态与变态》映射篇 `traditions/yu-guangzhong-chinese-normal.md`。
 
 ## 英文出处
 
-Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and occasion。现代实用写作中，Orwell 与 Zinsser 都要求语言服从说清楚的目的，而非炫耀或模仿外来腔调。见 `traditions/orwell-politics-and-english.md`。
+Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and occasion。现代实用写作中，Orwell 与 Zinsser 都要求语言服从说清楚的目的。见 `traditions/orwell-politics-and-english.md`、`traditions/zinsser-on-writing-well.md`。
 
 ## 关联判例
 

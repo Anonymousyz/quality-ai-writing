@@ -27,11 +27,11 @@
 
 ## 中文出处
 
-「凡立言之要，在于有物。」物多而不择，则言芜。可对照《文心雕龙·熔裁》论规范本体、剪截浮词：「规范本体谓之熔，剪截浮词谓之裁。」（详论可后续收入 `traditions/` 候选篇目。）
+「规范本体谓之熔，剪截浮词谓之裁。」——刘勰《文心雕龙·熔裁》。先熔后裁；详注与 AI 映射见 `traditions/wenxin-rongcai.md`。
 
 ## 英文出处
 
-"Omit needless words." — William Strunk Jr. & E. B. White, *The Elements of Style*。取舍不仅是删词，更是删掉不服务于 claim 的整块材料；Zinsser 亦强调 clutter 常来自作者不敢选择。
+"Omit needless words." — William Strunk Jr. & E. B. White, *The Elements of Style*。取舍不仅是删词，更是删掉不服务于 claim 的整块材料。详见 `traditions/strunk-white-elements.md`；clutter 见 `traditions/zinsser-on-writing-well.md`。
 
 ## 关联判例
 

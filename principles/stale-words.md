@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-"Never use a metaphor, simile, or other figure of speech which you are used to seeing in print." 等六条——George Orwell, *Politics and the English Language*。垂死隐喻与预制短语，正是今日 AI 套话的前身。详注见 `traditions/orwell-politics-and-english.md`。
+"Never use a metaphor…" 与 "Omit needless words."——Orwell；Strunk & White。垂死隐喻与 clutter 正是今日 AI 套话的前身。见 `traditions/orwell-politics-and-english.md`、`traditions/strunk-white-elements.md`、`traditions/zinsser-on-writing-well.md`。
 
 ## 关联判例
 

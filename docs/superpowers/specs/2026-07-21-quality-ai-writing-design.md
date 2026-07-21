@@ -136,12 +136,18 @@ AI 让第一稿的成本趋近于零。这部作品回答的问题是：
 
 `traditions/`，每篇 500–1500 字：短摘注出处 + 提炼 + 对 AI 写作的映射。
 
-**首版两篇：**
+**已有（v0.2）：**
 
-1. 韩愈《答李翊书》（陈言务去、气盛言宜）  
-2. Orwell《Politics and the English Language》（六条规则、垂死隐喻 ↔ AI 套话）  
+1. 韩愈《答李翊书》  
+2. Orwell《Politics and the English Language》  
+3. 《文心雕龙·熔裁》  
+4. 余光中《中文的常态与变态》（要旨映射）  
+5. Strunk & White《The Elements of Style》  
+6. Zinsser《On Writing Well》  
 
-**路线图候选：** 曹丕《典论·论文》、《文心雕龙·熔裁》、姚鼐、余光中《中文的常态与变态》、Strunk & White、Zinsser、Pinker。
+**过程短注（v0.2）：** `notes/` — 任务模式、结构、修改顺序（吸收可公开的过程原则，不收录完整个人流程）。  
+
+**路线图候选：** 姚鼐、Pinker、朱光潜/叶圣陶短摘、图尔敏（论证框架，可选）。
 
 ---
 

@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-"Formal quotations cited as documentary evidence are introduced by a colon and enclosed in quotation marks." — William Strunk Jr. & E. B. White, *The Elements of Style*. 引文与转述先问 attribution：cite what you assert；unsourced critical claims fail review。可对照严肃风格指南对 quotation accuracy 与 source credit 的要求。
+Strunk & White 对正式引文作为 documentary evidence 的处理要求：先问 attribution，cite what you assert。详见 `traditions/strunk-white-elements.md`。
 
 ## 关联判例
 
