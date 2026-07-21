@@ -29,9 +29,9 @@
 |---|---|
 | [`STANDARD.md`](STANDARD.md) | 写前模式 + 一票否决 + 三层八维 + 终审 |
 | [`principles/`](principles/) | 每维一文件：定义、问句、病征、改法 |
-| [`notes/`](notes/) | 过程短注：任务模式、结构、修改顺序 |
+| [`notes/`](notes/) | 过程短注：模式、结构、修改、一段一意、读者、场景选择 |
 | [`cases/`](cases/) | 脱敏后的第一稿→定稿对照判例 |
-| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射（6 篇） |
+| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射（9 篇） |
 | [`skills/case-intake/`](skills/case-intake/) | 把改前改后整理成案例草稿的 Agent 技能 |
 
 本地草稿放 [`inbox/`](inbox/)（gitignore，不进公开仓）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。
@@ -52,10 +52,11 @@ Codex:       ~/.codex/skills/case-intake
 
 | 项 | 值 |
 |---|---|
-| 版本 | `0.2.0` |
+| 版本 | `0.3.0` |
 | 案例数 | `3` |
-| 传统篇 | `6` |
-| 上次修法 | `2026-07-21`（补过程短注与传统篇） |
+| 传统篇 | `9` |
+| 过程短注 | `7` |
+| 上次修法 | `2026-07-21`（共识短注、修法准入、朱光潜/叶圣陶/Pinker） |
 
 ---
 

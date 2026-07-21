@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.3.0] - 2026-07-21
+
+### Added
+- Process notes: one idea per paragraph, reader-first, understanding ceiling, scene choices
+- Tradition notes: Zhu Guangqian (cliché / 套板反应), Ye Shengtao (paragraph + reader), Pinker (*Sense of Style*)
+- MAINTENANCE: four conditions for a rule to enter the living standard
+
+### Changed
+- STANDARD → 0.3.0; task-modes / revision-order cross-links strengthened
+- README status counts updated
+
 ## [0.2.0] - 2026-07-21
 
 ### Added

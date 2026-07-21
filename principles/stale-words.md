@@ -27,7 +27,7 @@
 
 ## 中文出处
 
-「惟陈言之务去，戛戛乎其难哉！」——韩愈《答李翊书》。详注与 AI 写作映射见 `traditions/han-yu-da-li-yi-shu.md`。
+「惟陈言之务去，戛戛乎其难哉！」——韩愈《答李翊书》。朱光潜「套板反应」同向：不假思索弹出的现成话。见 `traditions/han-yu-da-li-yi-shu.md`、`traditions/zhu-guangqian-cliche.md`。
 
 ## 英文出处
 

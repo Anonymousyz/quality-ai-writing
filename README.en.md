@@ -29,9 +29,9 @@ De-AI-ing covers only part of the prose layer. This work covers the full pre-sig
 |---|---|
 | [`STANDARD.md`](STANDARD.md) | Task modes + veto + eight dimensions + final judgment |
 | [`principles/`](principles/) | One file per dimension |
-| [`notes/`](notes/) | Process notes: task modes, structure, revision order |
+| [`notes/`](notes/) | Process notes: modes, structure, revision, paragraph, reader, scenes |
 | [`cases/`](cases/) | Before/after revision cases (de-identified) |
-| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (6 notes) |
+| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (9 notes) |
 | [`skills/case-intake/`](skills/case-intake/) | Agent skill to draft cases from edits |
 
 Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGELOG.md) and [`MAINTENANCE.md`](MAINTENANCE.md).
@@ -52,10 +52,11 @@ Codex:       ~/.codex/skills/case-intake
 
 | Item | Value |
 |---|---|
-| Version | `0.2.0` |
+| Version | `0.3.0` |
 | Cases | `3` |
-| Tradition notes | `6` |
-| Last revision | `2026-07-21` (process notes + traditions) |
+| Tradition notes | `9` |
+| Process notes | `7` |
+| Last revision | `2026-07-21` (consensus notes + rule admission + Zhu/Ye/Pinker) |
 
 ---
 

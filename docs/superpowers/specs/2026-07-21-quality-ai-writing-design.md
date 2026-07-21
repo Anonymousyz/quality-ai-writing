@@ -145,9 +145,11 @@ AI 让第一稿的成本趋近于零。这部作品回答的问题是：
 5. Strunk & White《The Elements of Style》  
 6. Zinsser《On Writing Well》  
 
-**过程短注（v0.2）：** `notes/` — 任务模式、结构、修改顺序（吸收可公开的过程原则，不收录完整个人流程）。  
+**过程短注（v0.3）：** `notes/` — 任务模式、结构、修改顺序、一段一意、读者优先、理解天花板、场景化选择；`MAINTENANCE` 含规则准入四条。  
 
-**路线图候选：** 姚鼐、Pinker、朱光潜/叶圣陶短摘、图尔敏（论证框架，可选）。
+**传统篇（v0.3 起 9 篇）：** 韩愈、Orwell、熔裁、余光中、Strunk & White、Zinsser、朱光潜、叶圣陶、Pinker。  
+
+**路线图候选：** 姚鼐、Williams、图尔敏 Warrant、苏轼「辞达」、陆机《文赋》短摘。
 
 ---
 
