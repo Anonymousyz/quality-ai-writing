@@ -4,7 +4,7 @@
 
 **Goal:** 落地公开仓库 `quality-ai-writing`：活标准 + 八维原则 + 两篇传统打底 + 三个脱敏种子判例 + 案例校验脚本 + 入库技能，并写清公开/私有边界。
 
-**Architecture:** 单仓库 Markdown 活标准。`STANDARD.md` 为成文法；`principles/` 展开八维；`cases/` 仅存虚构/脱敏判例；`inbox/` gitignore；`skills/case-intake` 把本地改稿整理成案例草稿；`scripts/check_cases.py` 校验判例格式与维度标签。私人 Notion 写作体系不进仓。
+**Architecture:** 单仓库 Markdown 活标准。`STANDARD.md` 为成文法；`principles/` 展开八维；`cases/` 仅存虚构/脱敏判例；`inbox/` gitignore；`skills/case-intake` 把本地改稿整理成案例草稿；`scripts/check_cases.py` 校验判例格式与维度标签。私人写作操作系统不进仓。
 
 **Tech Stack:** Markdown；Python 3.11+（stdlib only：`pathlib`、`re`、`sys`）；pytest；Agent Skill（`SKILL.md`）。
 
@@ -12,7 +12,7 @@
 
 - 仓库名：`quality-ai-writing`；中文名：高质量 AI 写作
 - 管辖：知识工作文档；中英通用；仓库正文中文为主 + `README.en.md`
-- 公开/私有：框架公开；Notion SOP/真料私有；`inbox/` 永不提交；案例仅虚构脱敏
+- 公开/私有：框架公开；私人 SOP/真料私有；`inbox/` 永不提交；案例仅虚构脱敏
 - 许可：代码 MIT；文本 CC BY 4.0
 - 不做：文档站、独立评审技能仓、评分产品、创意写作覆盖
 - 规范来源：`docs/superpowers/specs/2026-07-21-quality-ai-writing-design.md`
@@ -82,7 +82,7 @@ inbox/*
 - 修法检查：最密维度、未接住病征、从未被引用的原则（考虑删除）
 - 脱敏红线与公开/私有表（从设计 §4 抄入）
 - CHANGELOG 只写结论与公开案例 ID，不写私人文档名
-- 私人操作系统：Notion 写作体系，不在此开源
+- 私人操作系统：私人写作体系，不在此开源
 
 - [ ] **Step 5: 写 `CHANGELOG.md`**
 
@@ -186,7 +186,7 @@ git commit -m "docs: add STANDARD v0.1.0"
 - Test: 无
 
 **Interfaces:**
-- Consumes: STANDARD 维度 slug；Notion 七原理仅作思想对齐，**不复制私人 SOP 原文**
+- Consumes: STANDARD 维度 slug；私人侧原则仅作思想对齐，**不复制私人 SOP 原文**
 - Produces: 每文件同一模板
 
 每文件模板：
@@ -229,7 +229,7 @@ git commit -m "docs: add STANDARD v0.1.0"
 | qi | 文气 | 匀速排比、段落无呼吸 |
 | decorum | 得体 | 翻译腔、语体错位 |
 
-公开写作可吸收的公开层信号（改写进 `stale-words` / `logic` / `intent`，勿整段搬 Notion）：
+公开写作可吸收的公开层信号（改写进 `stale-words` / `logic` / `intent`，勿整段搬私人操作系统原文）：
 - 抽象名词与万能排比密集
 - 主体可替换句仍成立
 - 「因此」无真实推导
@@ -533,7 +533,7 @@ description: >-
 1. 默认写入本地 `inbox/`，不要直接写入 `cases/`。
 2. 发现疑似真实客户、雇主、项目、内部系统名、精确内部数据时，必须列出「脱敏待处理」清单；不得假装已安全。
 3. 维度标签只能使用：intent, logic, selection, sources, proportion, stale-words, qi, decorum。
-4. 不复制用户的私人 SOP 或 Notion 操作系统原文进公开文件。
+4. 不复制用户的私人写作操作系统 / SOP 原文进公开文件。
 
 ## 流程
 1. 读取改前、改后文本（若用户只给一段，询问缺的一侧）。
@@ -585,7 +585,7 @@ Expected: 全部 PASS / OK
 - [ ] 三个 cases 通过校验  
 - [ ] README 含公开/私有边界句与现状节  
 - [ ] inbox gitignore 生效（`git check-ignore -v inbox/draft.md` 在创建临时文件后应命中）  
-- [ ] 无 Notion SOP 原文、无真实机构名  
+- [ ] 无私人 SOP 原文、无真实机构名  
 
 - [ ] **Step 3: 若有修正，提交**
 
@@ -611,7 +611,7 @@ git commit -m "docs: finalize v0.1 consistency pass"
 | seed cases ×3 + check_cases.py | 5 |
 | case-intake 技能 | 6 |
 | CHANGELOG + 现状节 | 1, 7 |
-| 不公开 Notion SOP | 全局约束 + Task 3/6 硬规则 |
+| 不公开私人 SOP | 全局约束 + Task 3/6 硬规则 |
 
 ## Placeholder Scan
 

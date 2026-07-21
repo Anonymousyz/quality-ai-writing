@@ -9,3 +9,6 @@ Thumbs.db
 # Local intake — never publish raw drafts
 inbox/*
 !inbox/README.md
+
+# Local agent scratch (paths, briefs) — never publish
+.superpowers/

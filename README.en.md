@@ -13,7 +13,7 @@ A living review standard with de-identified revision cases and bilingual writing
 **This repo publishes the review standard and examples only. The full personal writing operating system is not open-sourced; all cases are fictional or de-identified.**
 
 - Public: standard dimensions, review questions, veto rules, tradition excerpts, de-identified cases
-- Private: Notion writing system (SOPs, workflows, real tasks), `inbox/` drafts, raw before/after edits
+- Private: personal writing operating system (SOPs, workflows, real tasks), `inbox/` drafts, raw before/after edits
 
 ---
 
