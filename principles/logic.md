@@ -24,6 +24,7 @@
 - 分层书写：先陈述可核对事实 → 再给解释/机制 → 最后给建议，并标明依赖的前提。
 - 把隐藏前提写成显式假设；假设不成立时，结论自动降级或撤回。
 - 允许「证据不足以推到建议」——此时停在观察层，比硬接「因此」更干净。
+- 核心主张检查 **Warrant**：依据凭什么能推出结论（见 `notes/toulmin-warrant.md`）。
 
 ## 中文出处
 
@@ -31,7 +32,7 @@
 
 ## 英文出处
 
-"A scrupulous writer, in every sentence that he writes, will ask himself … What am I trying to say? What words will express it? … Could I put it more shortly?" — George Orwell, *Politics and the English Language*（1946）。其中对预制短语与伪精密的批评，亦适用于「因此」装饰性用法。详注见 `traditions/orwell-politics-and-english.md`。
+Orwell 对「因此」装饰性用法的批评见 `traditions/orwell-politics-and-english.md`。论证桥（Warrant）见 Stephen Toulmin 操作短注 `notes/toulmin-warrant.md`。
 
 ## 关联判例
 

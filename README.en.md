@@ -29,21 +29,23 @@ De-AI-ing covers only part of the prose layer. This work covers the full pre-sig
 |---|---|
 | [`STANDARD.md`](STANDARD.md) | Task modes + veto + eight dimensions + final judgment |
 | [`principles/`](principles/) | One file per dimension |
-| [`notes/`](notes/) | Process notes: modes, structure, revision, paragraph, reader, scenes |
+| [`notes/`](notes/) | Process notes: modes, structure, Warrant, MECE, reader, scenes, … |
 | [`cases/`](cases/) | Before/after revision cases (de-identified) |
-| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (9 notes) |
-| [`skills/case-intake/`](skills/case-intake/) | Agent skill to draft cases from edits |
+| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (10 notes) |
+| [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | Fast scan for AI-ish / stale prose signals |
+| [`skills/case-intake/`](skills/case-intake/) | Draft cases from before/after edits |
 
 Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGELOG.md) and [`MAINTENANCE.md`](MAINTENANCE.md).
 
-### Install the case-intake skill
+### Install skills
 
-Copy this repo’s `skills/case-intake` folder into your Agent skills path (on Windows, replace `~` with `%USERPROFILE%`):
+Copy each folder under `skills/` into your Agent skills path (on Windows, replace `~` with `%USERPROFILE%`):
 
 ```text
-Cursor:      ~/.cursor/skills/case-intake
-Claude Code: ~/.claude/skills/case-intake
-Codex:       ~/.codex/skills/case-intake
+Cursor:      ~/.cursor/skills/ai-prose-detect
+             ~/.cursor/skills/case-intake
+Claude Code: ~/.claude/skills/...
+Codex:       ~/.codex/skills/...
 ```
 
 ---
@@ -52,11 +54,12 @@ Codex:       ~/.codex/skills/case-intake
 
 | Item | Value |
 |---|---|
-| Version | `0.3.0` |
+| Version | `0.4.0` |
 | Cases | `3` |
-| Tradition notes | `9` |
-| Process notes | `7` |
-| Last revision | `2026-07-21` (consensus notes + rule admission + Zhu/Ye/Pinker) |
+| Tradition notes | `10` |
+| Process notes | `9` |
+| Skills | `2` (detect + intake) |
+| Last revision | `2026-07-21` (Williams, Warrant, MECE, ai-prose-detect) |
 
 ---
 

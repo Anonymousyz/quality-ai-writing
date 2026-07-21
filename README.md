@@ -29,21 +29,23 @@
 |---|---|
 | [`STANDARD.md`](STANDARD.md) | 写前模式 + 一票否决 + 三层八维 + 终审 |
 | [`principles/`](principles/) | 每维一文件：定义、问句、病征、改法 |
-| [`notes/`](notes/) | 过程短注：模式、结构、修改、一段一意、读者、场景选择 |
+| [`notes/`](notes/) | 过程短注：模式、结构、Warrant、MECE、读者、场景等 |
 | [`cases/`](cases/) | 脱敏后的第一稿→定稿对照判例 |
-| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射（9 篇） |
-| [`skills/case-intake/`](skills/case-intake/) | 把改前改后整理成案例草稿的 Agent 技能 |
+| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射（10 篇） |
+| [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | AI 腔 / 套话等信号检测（快检） |
+| [`skills/case-intake/`](skills/case-intake/) | 把改前改后整理成案例草稿 |
 
-本地草稿放 [`inbox/`](inbox/)（gitignore，不进公开仓）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。
+本地草稿放 [`inbox/`](inbox/)（gitignore，不进版本库）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。
 
-### 安装 case-intake 技能
+### 安装技能
 
-把本仓 `skills/case-intake` 目录放到对应 Agent 的 skills 路径（Windows 把 `~` 换成 `%USERPROFILE%`）：
+把本仓 `skills/<技能名>` 目录放到对应 Agent 的 skills 路径（Windows 把 `~` 换成 `%USERPROFILE%`）：
 
 ```text
-Cursor:      ~/.cursor/skills/case-intake
-Claude Code: ~/.claude/skills/case-intake
-Codex:       ~/.codex/skills/case-intake
+Cursor:      ~/.cursor/skills/ai-prose-detect
+             ~/.cursor/skills/case-intake
+Claude Code: ~/.claude/skills/...
+Codex:       ~/.codex/skills/...
 ```
 
 ---
@@ -52,11 +54,12 @@ Codex:       ~/.codex/skills/case-intake
 
 | 项 | 值 |
 |---|---|
-| 版本 | `0.3.0` |
+| 版本 | `0.4.0` |
 | 案例数 | `3` |
-| 传统篇 | `9` |
-| 过程短注 | `7` |
-| 上次修法 | `2026-07-21`（共识短注、修法准入、朱光潜/叶圣陶/Pinker） |
+| 传统篇 | `10` |
+| 过程短注 | `9` |
+| 技能 | `2`（检测 + 入库） |
+| 上次修法 | `2026-07-21`（Williams、Warrant、MECE、ai-prose-detect） |
 
 ---
 

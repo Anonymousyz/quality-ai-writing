@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.4.0] - 2026-07-21
+
+### Added
+- Tradition: Williams *Style* (characters as subjects, actions as verbs, old→new)
+- Notes: Toulmin Warrant; MECE as classification heuristic
+- Skill: `ai-prose-detect` — signal scan for AI-ish / stale / empty-logic / translation-ese prose
+
+### Changed
+- STANDARD → 0.4.0; logic/selection/qi cross-links; README install covers two skills
+
 ## [0.3.0] - 2026-07-21
 
 ### Added

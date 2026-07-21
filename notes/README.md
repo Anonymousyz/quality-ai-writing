@@ -1,6 +1,6 @@
 # 过程短注
 
-八维评的是成稿质量。本目录补**写前 / 结构 / 修改 / 读者 / 场景**的公开短注——只给可迁移的判断，不提供完整个人流程或台账。
+八维评的是成稿质量。本目录补**写前 / 结构 / 论证 / 修改 / 读者 / 场景**的公开短注——只给可迁移的判断，不提供完整个人流程或台账。
 
 | 文件 | 解决什么 |
 |---|---|
@@ -11,3 +11,5 @@
 | [reader-first.md](reader-first.md) | 读者优先；写完三问 |
 | [understanding-ceiling.md](understanding-ceiling.md) | 充分理解是质量天花板 |
 | [scene-choices.md](scene-choices.md) | 结论先行/说清楚等场景化选择 |
+| [toulmin-warrant.md](toulmin-warrant.md) | 主张—依据之间的保证（Warrant） |
+| [mece.md](mece.md) | 分类时尽量不重不漏（启发式） |

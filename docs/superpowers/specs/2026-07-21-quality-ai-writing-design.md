@@ -147,9 +147,11 @@ AI 让第一稿的成本趋近于零。这部作品回答的问题是：
 
 **过程短注（v0.3）：** `notes/` — 任务模式、结构、修改顺序、一段一意、读者优先、理解天花板、场景化选择；`MAINTENANCE` 含规则准入四条。  
 
-**传统篇（v0.3 起 9 篇）：** 韩愈、Orwell、熔裁、余光中、Strunk & White、Zinsser、朱光潜、叶圣陶、Pinker。  
+**传统篇（v0.4 起 10 篇）：** 韩愈、Orwell、熔裁、余光中、Strunk & White、Zinsser、朱光潜、叶圣陶、Pinker、Williams。  
 
-**路线图候选：** 姚鼐、Williams、图尔敏 Warrant、苏轼「辞达」、陆机《文赋》短摘。
+**过程工具短注：** 图尔敏 Warrant、MECE；技能 `ai-prose-detect`（信号快检）+ `case-intake`。  
+
+**路线图候选：** 姚鼐、苏轼「辞达」、陆机《文赋》短摘、模拟读者模板技能。
 
 ---
 

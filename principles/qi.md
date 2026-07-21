@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-Orwell 要求作者自问句子能否更短、意象是否新鲜，间接也是在恢复节奏与呼吸（*Politics and the English Language*）。Strunk & White 对 vigor 的强调：主动、具体、避免无生气的堆砌——与文气相通。
+Orwell / Strunk 的短与有力见相应传统篇。Williams《Style》：人物做主语、动作落在动词、从旧到新——直接服务节奏与连贯，见 `traditions/williams-style.md`。
 
 ## 关联判例
 
