@@ -27,11 +27,11 @@
 
 ## 中文出处
 
-考据传统强调言必有征。本仓库以桐城「考据」一层收束此维：无征不信，不当以气势代证据。短述见 `STANDARD.md`「考据」节；个案示范见计划中的过度声称与来源交叉判例。
+「无征不信。」考据传统强调言必有征。本仓库以桐城「考据」一层收束此维：关键论断须可溯，不当以气势代证据。短述见 `STANDARD.md`「考据」节；个案示范见计划中的过度声称与来源交叉判例。
 
 ## 英文出处
 
-"If it is possible to cut a word out, always cut it out" 之外，Orwell 更要求语言服务真实观察而非预制判断（*Politics and the English Language*）。学术与工程写作通则：cite what you assert；unsourced critical claims fail review。可对照任意严肃风格指南对 attribution 的要求。
+"Formal quotations cited as documentary evidence are introduced by a colon and enclosed in quotation marks." — William Strunk Jr. & E. B. White, *The Elements of Style*. 引文与转述先问 attribution：cite what you assert；unsourced critical claims fail review。可对照严肃风格指南对 quotation accuracy 与 source credit 的要求。
 
 ## 关联判例
 
