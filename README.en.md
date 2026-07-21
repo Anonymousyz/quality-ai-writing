@@ -31,8 +31,9 @@ De-AI-ing covers only part of the prose layer. This work covers the full pre-sig
 | [`principles/`](principles/) | One file per dimension |
 | [`notes/`](notes/) | Process notes: modes, structure, Warrant, MECE, reader, scenes, … |
 | [`cases/`](cases/) | Before/after revision cases (de-identified) |
-| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (10 notes) |
+| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting (13 notes) |
 | [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | Fast scan for AI-ish / stale prose signals |
+| [`skills/mock-reader/`](skills/mock-reader/) | Mock-reader paraphrase and questions |
 | [`skills/case-intake/`](skills/case-intake/) | Draft cases from before/after edits |
 
 Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGELOG.md) and [`MAINTENANCE.md`](MAINTENANCE.md).
@@ -43,6 +44,7 @@ Copy each folder under `skills/` into your Agent skills path (on Windows, replac
 
 ```text
 Cursor:      ~/.cursor/skills/ai-prose-detect
+             ~/.cursor/skills/mock-reader
              ~/.cursor/skills/case-intake
 Claude Code: ~/.claude/skills/...
 Codex:       ~/.codex/skills/...
@@ -54,12 +56,12 @@ Codex:       ~/.codex/skills/...
 
 | Item | Value |
 |---|---|
-| Version | `0.4.0` |
+| Version | `0.5.0` |
 | Cases | `3` |
-| Tradition notes | `10` |
+| Tradition notes | `13` |
 | Process notes | `9` |
-| Skills | `2` (detect + intake) |
-| Last revision | `2026-07-21` (Williams, Warrant, MECE, ai-prose-detect) |
+| Skills | `3` (detect + mock-reader + intake) |
+| Last revision | `2026-07-21` (Lu Ji, Su Shi, Tongcheng, mock-reader) |
 
 ---
 

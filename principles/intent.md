@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-William Zinsser, *On Writing Well*：clutter 常掩盖「无话可说」；写作是思考的显现。详见 `traditions/zinsser-on-writing-well.md`。先有 claim，再有 elaboration——过程见 `notes/task-modes.md`。
+陆机「意不称物，文不逮意」「立片言而居要」见 `traditions/lu-ji-wenfu.md`。Zinsser：clutter 常掩盖「无话可说」，见 `traditions/zinsser-on-writing-well.md`。先有 claim——过程见 `notes/task-modes.md`。
 
 ## 关联判例
 

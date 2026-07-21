@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.5.0] - 2026-07-21
+
+### Added
+- Traditions: Lu Ji *Wenfu* (意—文损耗 / 警策); Su Shi 辞达; Tongcheng 义理·考据·词章
+- Skill: `mock-reader` — target-reader paraphrase and questions (not a substitute for humans)
+
+### Changed
+- STANDARD → 0.5.0; README skill install lists three skills
+
 ## [0.4.0] - 2026-07-21
 
 ### Added
