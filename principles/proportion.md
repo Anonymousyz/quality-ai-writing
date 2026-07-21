@@ -31,9 +31,9 @@
 
 ## 英文出处
 
-科学与工程沟通的基本纪律：do not overclaim。Orwell 批评的「伪精密」与空洞强调，常与分寸失控伴生；另可对照任何实验报告规范：limitations 与 claims 同级呈现。见 `traditions/orwell-politics-and-english.md`（待建）中对夸张与含混的映射。
+科学与工程沟通的基本纪律：do not overclaim。Orwell 批评的「伪精密」与空洞强调，常与分寸失控伴生；另可对照任何实验报告规范：limitations 与 claims 同级呈现。见 `traditions/orwell-politics-and-english.md` 中对夸张与含混的映射。
 
 ## 关联判例
 
-- 见 `cases/2026-07-21-overclaim-demo.md`（计划中的种子判例：试点 demo 写成「已验证可推广」）
+- 见 `cases/2026-07-21-overclaim-demo.md`（试点 demo 写成「已验证可推广」）
 - 假平衡、无立场类：待积累

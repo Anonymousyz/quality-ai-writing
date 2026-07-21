@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-"A scrupulous writer, in every sentence that he writes, will ask himself … What am I trying to say? What words will express it? … Could I put it more shortly?" — George Orwell, *Politics and the English Language*（1946）。其中对预制短语与伪精密的批评，亦适用于「因此」装饰性用法。详注见 `traditions/orwell-politics-and-english.md`（待建）。
+"A scrupulous writer, in every sentence that he writes, will ask himself … What am I trying to say? What words will express it? … Could I put it more shortly?" — George Orwell, *Politics and the English Language*（1946）。其中对预制短语与伪精密的批评，亦适用于「因此」装饰性用法。详注见 `traditions/orwell-politics-and-english.md`。
 
 ## 关联判例
 

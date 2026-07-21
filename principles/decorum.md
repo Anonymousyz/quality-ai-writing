@@ -31,7 +31,7 @@
 
 ## 英文出处
 
-Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and occasion。现代实用写作中，Orwell 与 Zinsser 都要求语言服从说清楚的目的，而非炫耀或模仿外来腔调。见 `traditions/orwell-politics-and-english.md`（待建）。
+Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and occasion。现代实用写作中，Orwell 与 Zinsser 都要求语言服从说清楚的目的，而非炫耀或模仿外来腔调。见 `traditions/orwell-politics-and-english.md`。
 
 ## 关联判例
 

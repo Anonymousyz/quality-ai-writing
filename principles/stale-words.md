@@ -27,13 +27,13 @@
 
 ## 中文出处
 
-「惟陈言之务去，戛戛乎其难哉！」——韩愈《答李翊书》。详注与 AI 写作映射见 `traditions/han-yu-da-li-yi-shu.md`（待建）。
+「惟陈言之务去，戛戛乎其难哉！」——韩愈《答李翊书》。详注与 AI 写作映射见 `traditions/han-yu-da-li-yi-shu.md`。
 
 ## 英文出处
 
-"Never use a metaphor, simile, or other figure of speech which you are used to seeing in print." 等六条——George Orwell, *Politics and the English Language*。垂死隐喻与预制短语，正是今日 AI 套话的前身。详注见 `traditions/orwell-politics-and-english.md`（待建）。
+"Never use a metaphor, simile, or other figure of speech which you are used to seeing in print." 等六条——George Orwell, *Politics and the English Language*。垂死隐喻与预制短语，正是今日 AI 套话的前身。详注见 `traditions/orwell-politics-and-english.md`。
 
 ## 关联判例
 
-- 见 `cases/2026-07-21-stale-words-enable.md`（计划中的种子判例：「赋能 / 值得注意的是」空转）
+- 见 `cases/2026-07-21-stale-words-enable.md`（「赋能 / 值得注意的是」空转）
 - 其余套话变体：待积累
