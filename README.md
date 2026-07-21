@@ -35,6 +35,16 @@
 
 本地草稿放 [`inbox/`](inbox/)（gitignore，不进公开仓）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。
 
+### 安装 case-intake 技能
+
+把本仓 `skills/case-intake` 目录放到对应 Agent 的 skills 路径（Windows 把 `~` 换成 `%USERPROFILE%`）：
+
+```text
+Cursor:      ~/.cursor/skills/case-intake
+Claude Code: ~/.claude/skills/case-intake
+Codex:       ~/.codex/skills/case-intake
+```
+
 ---
 
 ## 现状

@@ -35,6 +35,16 @@ De-AI-ing covers only part of the prose layer. This work covers the full pre-sig
 
 Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGELOG.md) and [`MAINTENANCE.md`](MAINTENANCE.md).
 
+### Install the case-intake skill
+
+Copy this repo’s `skills/case-intake` folder into your Agent skills path (on Windows, replace `~` with `%USERPROFILE%`):
+
+```text
+Cursor:      ~/.cursor/skills/case-intake
+Claude Code: ~/.claude/skills/case-intake
+Codex:       ~/.codex/skills/case-intake
+```
+
 ---
 
 ## Status
