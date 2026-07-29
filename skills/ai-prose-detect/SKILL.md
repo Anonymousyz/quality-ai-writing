@@ -52,6 +52,7 @@ description: >-
 ### F. 结构浅层信号（→ selection, qi；一段一意）
 
 - 万能排比、段段同构、标题伪 MECE（见 notes/mece.md）  
+- 标题、编号齐全，却说不出每项的并列、先后或因果依据（见 notes/meaning-and-order.md）  
 
 ## 可选：本地启发式脚本
 
