@@ -2,7 +2,7 @@
 id: 2026-07-21-uniform-rhythm
 scene: 三句行动说明（虚构）
 dimensions: [qi, stale-words]
-verdict: 匀速排比断气；短句落锤恢复推进
+verdict: 匀速排比遮住重点；改为具体动作后推进更清楚
 ---
 
 ## 场景
