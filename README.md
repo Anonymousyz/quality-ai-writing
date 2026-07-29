@@ -1,59 +1,50 @@
 # 高质量 AI 写作
 
-> 署名前，一篇知识工作文档怎样才算高质量？
+> 面向知识工作文档的写作与审稿标准
 
-一套可更新的评审标准，配脱敏修改判例与中英写作传统打底。不是 prompt 技巧集，不是去 AI 味插件，也不是创意写作教材。
+方案、报告、评审意见、决策备忘、README 与技术文档，先要说清问题、判断、依据和边界；再处理结构、句子和词语。本仓库把这套检查整理为可维护的标准、判例和工具。
 
-**管辖范围：** 方案、评审、报告、决策备忘、README 与技术文档等知识工作文档；中英文通用。
+## 参考材料
 
----
+本仓库优先采用可回溯的原典、经典写作著作、作者原文、权威机构发布的规范，以及在正式出版物或权威媒体署名发表的文章。中文材料见 [来源索引](traditions/chinese-style-sources.md)。
 
-## 本仓库包含 / 不包含
+材料帮助识别问题，不能替作者承担事实核验或专业判断。仓库规则由材料与脱敏判例共同校验；引文、转述和本仓规则分别标明，不把任何单一作者的意见扩写成普遍法则。
 
-**包含：** 评审标准、原则详解、中英传统短摘、虚构或已脱敏的改稿判例。  
-**不包含：** 未脱敏的真实改稿、可识别的客户/雇主/项目材料、未发表的流程台账。
+## 适用范围
 
-判例入库前须虚构化；本地草稿放 `inbox/`（不进入版本库）。
+适用于中英文知识工作文档的起草、修改与署前复查。它不代替事实核验、领域审稿、法律或合规审查，也不代替作者的署名责任。
 
----
+## 本仓库收录
 
-## 与 humanizer 的差别
+- 可维护的评审标准、原则说明和过程短注
+- 已虚构或脱敏的修改判例
+- 来源说明、必要短摘和转述
+- 可安装的审稿技能与校验脚本
 
-去 AI 味只覆盖辞章层的一部分。本作品覆盖立意、逻辑、来源、分寸、字句、文气、得体的完整署名前判断。
+不收录可识别的客户、雇主、项目材料、未脱敏改稿或未发表台账。本地草稿放在 [inbox/](inbox/)；该目录不进入版本库。
 
----
+## “去 AI 味”在这里的位置
 
-## 目录导航
+套话、翻译腔和空泛连接只是表达层的问题。本仓库还检查判断、推理、来源、声称强度、取舍与场合；必要术语、条件、数字和责任主体不能为了“去腔”而删去。
+
+## 目录
 
 | 路径 | 内容 |
 |---|---|
-| [`STANDARD.md`](STANDARD.md) | 写前模式 + 一票否决 + 三层八维 + 终审 |
-| [`principles/`](principles/) | 每维一文件：定义、问句、病征、改法 |
-| [`notes/`](notes/) | 过程短注：否决、证据阶梯、CARS、Warrant、MECE 等 |
-| [`cases/`](cases/) | 脱敏后的第一稿→定稿对照判例 |
-| [`traditions/`](traditions/) | 中英写作传统、中文文风来源索引与 AI 写作映射 |
-| [`skills/pre-sign-review/`](skills/pre-sign-review/) | 署名前全检（否决→八维） |
-| [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | AI 腔 / 套话信号快检 |
-| [`skills/mock-reader/`](skills/mock-reader/) | 模拟读者复述与追问 |
-| [`skills/case-intake/`](skills/case-intake/) | 改稿判例草稿 |
-| [`scripts/`](scripts/) | 判例校验、信号启发式、维度覆盖 |
+| [STANDARD.md](STANDARD.md) | 署前复查的总标准 |
+| [principles/](principles/) | 八个检查维度：定义、问句、常见问题与改法 |
+| [notes/](notes/) | 写前、结构、论证、修改和读者的短注 |
+| [cases/](cases/) | 虚构或脱敏的改稿判例 |
+| [traditions/](traditions/) | 来源说明与写作参照 |
+| [skills/](skills/) | 署前复查、信号检测、模拟读者与案例入库技能 |
+| [scripts/](scripts/) | 判例校验与启发式扫描脚本 |
 
-本地草稿放 [`inbox/`](inbox/)（gitignore，不进版本库）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。受版权保护的来源只保存出处、短摘录和转述；私人笔记与全文材料不进入仓库。
+## 使用方式
 
-### 安装技能
-
-把本仓 `skills/<技能名>` 目录放到对应 Agent 的 skills 路径（Windows 把 `~` 换成 `%USERPROFILE%`）：
-
-```text
-Cursor:      ~/.cursor/skills/pre-sign-review
-             ~/.cursor/skills/ai-prose-detect
-             ~/.cursor/skills/mock-reader
-             ~/.cursor/skills/case-intake
-Claude Code: ~/.claude/skills/...
-Codex:       ~/.codex/skills/...
-```
-
-### 本地检查
+1. 先读 [STANDARD.md](STANDARD.md)，确定文稿用途、读者与风险。
+2. 关键文稿先做否决快扫，再按八个维度复查。
+3. 需要局部检查时，选用 [技能](skills/)；需要沉淀经验时，先在本地脱敏，再按 [维护说明](MAINTENANCE.md) 入库。
+4. 运行本地检查：
 
 ```bash
 python -m unittest discover -s tests -v
@@ -61,24 +52,18 @@ python scripts/check_cases.py
 python scripts/case_coverage.py
 ```
 
----
-
 ## 现状
 
-| 项 | 值 |
+| 项目 | 当前值 |
 |---|---|
-| 版本 | `0.8.0` |
-| 案例数 | `11` |
-| 传统篇 | `19` |
-| 过程短注 | `13` |
-| 技能 | `4` |
-| 上次修法 | `2026-07-29`（中文文风来源索引 + 自然中文与任务文案检查） |
+| 版本 | 0.8.0 |
+| 判例 | 11 篇 |
+| 来源与写作参照 | 19 篇 |
+| 技能 | 4 个 |
+| 最近修订 | 2026-07-29：补充中文来源索引，并统一审校公开中文 |
 
----
+修订记录见 [CHANGELOG.md](CHANGELOG.md)，收录与维护规则见 [MAINTENANCE.md](MAINTENANCE.md)。
 
 ## 许可
 
-- **代码与脚本：** [MIT License](LICENSE)
-- **标准、原则、案例、传统等文本：** [CC BY 4.0](LICENSE-CONTENT)
-
-英文摘要见 [`README.en.md`](README.en.md)。
+代码与脚本采用 [MIT License](LICENSE)。标准、原则、案例、短注与来源说明采用 [CC BY 4.0](LICENSE-CONTENT)。英文摘要见 [README.en.md](README.en.md)。
