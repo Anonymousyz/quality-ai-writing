@@ -2,7 +2,7 @@
 
 ## 出处
 
-Steven Pinker, *The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century*（2014）。下文英文命题据书中广为引用的论点转述/短摘；请回原书核对。主映射：读者优先、清晰句法；与 Williams 清晰传统同域。
+Steven Pinker, *The Sense of Style: The Thinking Person's Guide to Writing in the 21st Century*（2014）。**材料性质：** 英文写作指南。下文为要旨转述或必要短摘；准确引文请核对原书。主要关联读者意识与清晰句法。
 
 ## 知识的诅咒（The Curse of Knowledge）
 
