@@ -2,7 +2,7 @@
 
 ## 出处
 
-Richard A. Lanham, *Revising Prose*（多版）。以实用修订步骤著称，其中 **Paramedic Method**（急救法）帮助把肿胀的名义化散文改回清晰动作句。下文为要旨映射，引文与步骤细节以原书为准。
+Richard A. Lanham, *Revising Prose*（多版）。**材料性质：** 英文写作指南。书中的 Paramedic Method 用于处理名词化和冗长句；下文只作要旨映射，具体步骤与引文请核对所用版本。
 
 ## 来源使用原则
 
