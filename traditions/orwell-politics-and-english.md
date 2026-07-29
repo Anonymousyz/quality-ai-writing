@@ -2,7 +2,7 @@
 
 ## 出处
 
-George Orwell, *Politics and the English Language*（1946）。原文为英文政论/文风随笔，通行文本见 Orwell 文集与多家公域转载。下文英文短摘据该文末「六条规则」及前文对坏文风类型的分类；中文说明为本仓库转述，非官方译本。
+George Orwell, *Politics and the English Language*（1946）。**材料性质：** 英文作者文章。下文英文短摘对应文末六条规则及前文的文风分析；中文说明为本仓库转述，不当作官方译本。准确引文请核对可靠版本。
 
 ## 来源使用原则（公开表述）
 
