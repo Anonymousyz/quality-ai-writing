@@ -1,68 +1,71 @@
 # 高质量 AI 写作 · 标准
 
-**版本：** 0.8.0
-**范围：** 知识工作文档（方案、评审、报告、决策备忘、README/技术文档）；中英文通用。
+**版本：** 0.8.1  
+**适用对象：** 方案、评审、报告、决策备忘、README 与技术文档等知识工作文档；中英文均可使用。
 
-分层骨架借桐城「义理·考据·词章」相济（见 `traditions/tongcheng-yifa.md`），不是复刻古文戒律。
+## 写前先定三件事
 
-## 写前：模式与三问
+1. 这篇文字要解决什么问题，给出什么判断，还是推进什么探索？
+2. 谁会读，读完需要理解、决定还是行动？
+3. 哪些内容是事实，哪些是解释、建议或尚待核实的假设？
 
-先分清任务模式（详见 `notes/task-modes.md`）：
+中文改稿先回到任务、判断和读者，再处理句法。表达自然，不能证明事实已经可靠。
 
-- **结论驱动** — 已有判断，要让读者理解、相信或行动  
-- **探索驱动** — 借写作更新假说；允许未收敛，但须写清改口条件  
+## 不宜署名交付的情形
 
-开始前至少问三句：这篇解决什么问题？哪些是事实、哪些是解释或选择？谁读完要理解、判断或完成什么？
+出现以下任一情形，应先修正问题，再谈润色：
 
-动笔前试写一句话核心（写不出则先补理解，见 `notes/understanding-ceiling.md`、`traditions/lu-ji-wenfu.md`）。读者与场景见 `notes/reader-first.md`、`notes/scene-choices.md`。研究类开篇可选用 CARS（`notes/cars-intro.md`）。
+1. 关键事实、数据、引文或来源错误、编造或无法核对。
+2. 关键主张没有可追溯的依据。
+3. 试点、个例或未经验证的推断被写成普遍结论。
+4. 文本包含未授权、敏感或可识别的内部信息。
+5. 读者说不出作者的判断、选择或建议。
 
-中文改稿先回到任务、判断和读者，再处理句法。来源、事实和专业边界是独立质量门；“自然中文”不能拿来证明内容已经可靠。来源索引见 `traditions/chinese-style-sources.md`。
+## 八个检查维度
 
-## 一票否决
+### 观点与推理
 
-快扫动作见 `notes/veto-scan.md`。
+1. [立意](principles/intent.md)（`intent`）  
+   这篇文字有没有清楚、值得讨论的判断或问题？
 
-1. 关键事实错误或编造（含编造引文、数据、来源）
-2. 关键论断来源不可溯
-3. 过度声称：demo 说成结论、个例说成规律、未验证说成已验证
-4. 场合违规：敏感信息、未授权引用
-5. 通篇无人的判断：AI 初稿直接交付，看不到立意与取舍痕迹
+2. [逻辑](principles/logic.md)（`logic`）  
+   依据、推理和结论能否逐步说清？
 
-## 义理
+3. [取舍](principles/selection.md)（`selection`）  
+   篇幅和材料是否服务于最重要的判断？
 
-1. 立意 (`intent`) — 有没有一个值得写下来的判断？删掉这篇，决策会不会变差？
-2. 逻辑 (`logic`) — 结论是从证据里长出来的，还是先有结论再找话？（Warrant：`notes/toulmin-warrant.md`）
-3. 取舍 (`selection`) — 详略是否体现观点？（MECE 启发式：`notes/mece.md`）
+### 证据与分寸
 
-## 考据
+4. [来源](principles/sources.md)（`sources`）  
+   关键事实、数据和引文能否回到来源核对？该来源是否适合支撑本句？转述是否准确？
 
-4. 来源 (`sources`) — 关键事实、数据、引文是否可溯源？来源是否权威且被正确转述？
-5. 分寸 (`proportion`) — 声称强度与证据强度是否匹配？（阶梯：`notes/evidence-ladder.md`）
+5. [分寸](principles/proportion.md)（`proportion`）  
+   声称强度是否与证据强度、适用范围和不确定性相称？
 
-## 辞章
+### 表达与场合
 
-6. 陈言务去 (`stale-words`) — 套话、空话、AI 腔是否已去掉？每句话是否有信息量？（辞达：`traditions/su-shi-cida.md`）
-7. 文气 (`qi`) — 一口气读下来是否断气？
-8. 得体 (`decorum`) — 语体与场景是否匹配？中文是否地道中文、英文是否地道英文？（英文纪律：`notes/english-knowledge-prose.md`）
+6. [陈言务去](principles/stale-words.md)（`stale-words`）  
+   每句话是否提供事实、判断、关系、条件或必要动作？
 
-中文表达的复查顺序：先找主体、动作、对象、条件和结果；再检查名词化、弱动词、介词套式、长定语和无主体被动是否遮住信息。它们只是信号，不是禁词。详见 `traditions/yu-guangzhong-chinese-normal.md`、`traditions/ye-shengtao-public-writing.md`。
+7. [文气](principles/qi.md)（`qi`）  
+   句子节奏和段落衔接是否帮助读者理解推进？
 
-任务型文字另看：当前状态是否清楚，动作是否明确，后果和下一步是否可见；详见 `traditions/ui-copy-task-writing.md`。
+8. [得体](principles/decorum.md)（`decorum`）  
+   语言、信息顺序和语气是否适合读者与场合？
 
-详情：`principles/` · `notes/` · `traditions/` · `cases/`。
+## 修改顺序
 
-**技能：** `pre-sign-review`（署名前全检）· `ai-prose-detect`（套话信号）· `mock-reader`（模拟复述）· `case-intake`（判例草稿）。模拟读者**不能**替代真人审阅。脚本：`detect_prose_signals.py`（命中≠定罪）· `case_coverage.py`（八维判例覆盖）。
+先改判断和结构，再改段落、句子与词语。事实、来源和声称强度从起草到定稿都要核验；它们不是最后一轮润色。
+
+中文表达可复查主体、动作、对象、条件和结果；再看名词化、弱动词、长定语和被动句是否遮住信息。它们是复查信号，不是禁用结构。参见 [余光中篇](traditions/yu-guangzhong-chinese-normal.md) 与 [叶圣陶篇](traditions/ye-shengtao-public-writing.md)。
 
 ## 终审
 
-八维查毕，清单结束。最后成不成——没有任何清单能替判断者做。
-
-> 文章千古事，得失寸心知。
+检查不能代替作者判断。作者仍须确认事实、范围、责任和署名是否经得起追问。
 
 ## 使用方式
 
-1. 分清模式与写前三问；钉读者与场景。  
-2. 先扫否决；触发即不合格。  
-3. 按风险选深度：pre-sign-review / ai-prose-detect / mock-reader。  
-4. 修改先大后小：结构 → 段落 → 句子 → 词语；一段一意；核心主张补 Warrant；声称对齐证据阶梯；事实核验独立成门。
-5. 脱敏后 case-intake 入库；修法见 `MAINTENANCE.md`。
+1. 明确读者、使用场景与文稿风险。
+2. 先做“不宜署名交付”快扫；未触发再按风险选择八维全检或局部复查。
+3. 将可公开的修改经验虚构化或脱敏后，再纳入判例。
+4. 定期根据判例、读者反馈和新增材料修订标准。见 [MAINTENANCE.md](MAINTENANCE.md)。
