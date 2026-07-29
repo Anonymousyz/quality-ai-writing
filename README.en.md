@@ -4,6 +4,8 @@ A review framework for plans, reviews, reports, decision memos, READMEs, and tec
 
 Before a knowledge-work document carries an author's name, it should make its question, judgment, evidence, and boundary clear. This repository maintains standards, revision cases, source notes, and small tools for that review.
 
+For project status, scope, feedback, and public-material boundaries, see [`STATUS.md`](STATUS.md).
+
 ## Sources and their use
 
 The repository gives priority to traceable primary texts, established writing works, authors' own essays, published institutional guidance, and signed articles in formal publications or established media. The [Chinese source index](traditions/chinese-style-sources.md) records each Chinese source, its publication or access route, and how this repository uses it.
