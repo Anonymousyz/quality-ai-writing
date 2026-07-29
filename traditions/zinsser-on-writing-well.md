@@ -2,7 +2,7 @@
 
 ## 出处
 
-William Zinsser, *On Writing Well*（多版）。下文英文短摘取书中广为引用的论断；中文为对照。Zinsser 面向非虚构与专业写作，与本仓库知识工作文档高度同域。
+William Zinsser, *On Writing Well*（多版）。**材料性质：** 英文非虚构写作指南。下文英文短摘与中文对照只用于复查冗余、清晰度和专业写作表达；准确引文请核对所用版本。
 
 ## 短摘一：Clutter
 
