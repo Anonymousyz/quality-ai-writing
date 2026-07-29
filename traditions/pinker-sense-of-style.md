@@ -10,7 +10,7 @@ Steven Pinker, *The Sense of Style: The Thinking Person's Guide to Writing in th
 
 ### 映射
 
-- `notes/reader-first.md`：段落后三问、写前钉读者  
+- `notes/reader-first.md`：段落后三问、写前确认读者  
 - `decorum`：对谁说话，决定解释密度  
 - 修复：把关键前提写出来；术语首次出现按读者需要解释；删掉「众所周知」式跳步
 
