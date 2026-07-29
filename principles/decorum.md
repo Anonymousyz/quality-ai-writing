@@ -17,6 +17,7 @@
 - 语体错位：内部备忘写成宣言体；对外说明写成黑话堆砌；评审意见写成鸡汤。
 - 礼貌与模糊错用：该明确责任时用「或许需要关注」；该克制时用命令式口号。
 - 中英混用失度：术语未约定就中英乱跳，或中文文档突然整段英文套话。
+- 任务信息后置：用户要做什么、限制是什么、下一步在哪里，都藏在背景说明之后。
 
 ## 改法
 
@@ -24,6 +25,12 @@
 - 中文写成中文：能用动词处少用「对于…的…性」；长定语拆句。
 - 英文写成英文：用该语言里自然的信息顺序与习语，不从中文逐句镜像。
 - 敏感与未授权内容一律不写（场合违规属一票否决）；得体包含「不该出现的就不出现」。
+- 对按钮、状态和错误提示，先写动作或状态，再写必要条件与下一步；同一对象、动作和状态始终用同一个名称。
+
+## 边界
+
+- 术语、必要名词化、被动语态和长句可以保留；标准是精度、信息焦点和共同用法，不是“越短越好”。
+- 面向用户的文字不能为求亲切而隐藏风险、责任或限制。
 
 ## 中文出处
 
@@ -31,7 +38,7 @@
 
 ## 英文出处
 
-Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and occasion。现代实用写作中，Orwell 与 Zinsser 都要求语言服从说清楚的目的。见 `traditions/orwell-politics-and-english.md`、`traditions/zinsser-on-writing-well.md`。
+Decorum 在古典修辞中即「合宜」：style fitting subject, audience, and occasion。现代实用写作中，Orwell 与 Zinsser 都要求语言服从说清楚的目的；任务文案可参考 Ant Design 的信息前置、术语一致与下一步说明。见 `traditions/orwell-politics-and-english.md`、`traditions/zinsser-on-writing-well.md`、`traditions/ui-copy-task-writing.md`。
 
 ## 关联判例
 
