@@ -6,6 +6,7 @@
 |---|---|
 | [task-modes.md](task-modes.md) | 区分探索与传达判断 |
 | [structure.md](structure.md) | 让结构服务推理和使用 |
+| [meaning-and-order.md](meaning-and-order.md) | 检查内容是否必要、安排是否有序 |
 | [revision-order.md](revision-order.md) | 先改判断与结构，再改字句 |
 | [one-idea-per-paragraph.md](one-idea-per-paragraph.md) | 检查段落是否只承担一个明确任务 |
 | [reader-first.md](reader-first.md) | 根据读者任务安排信息 |
