@@ -20,5 +20,5 @@ William Strunk Jr. 与 E. B. White 合著 *The Elements of Style*，版本与规
 ## 使用边界
 
 - 本页不把 Strunk & White 当作中文语法条例。
-- 来源核对和引文责任另见 [来源](../principles/sources.md)；本页不以模糊的“documentary evidence”归因代替具体出处。
+- 来源核对和引文责任另见 [来源](../principles/sources.md)。引文应给出可以核对的具体出处。
 - 与 [陈言务去](../principles/stale-words.md)、[取舍](../principles/selection.md) 和 [文气](../principles/qi.md) 相关。
