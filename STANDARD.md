@@ -1,6 +1,6 @@
 # 高质量 AI 写作 · 标准
 
-**版本：** 0.7.0  
+**版本：** 0.8.0  
 **范围：** 知识工作文档（方案、评审、报告、决策备忘、README/技术文档）；中英文通用。
 
 分层骨架借桐城「义理·考据·词章」相济（见 `traditions/tongcheng-yifa.md`），不是复刻古文戒律。
@@ -15,6 +15,8 @@
 开始前至少问三句：这篇解决什么问题？哪些是事实、哪些是解释或选择？谁读完要理解、判断或完成什么？
 
 动笔前试写一句话核心（写不出则先补理解，见 `notes/understanding-ceiling.md`、`traditions/lu-ji-wenfu.md`）。读者与场景见 `notes/reader-first.md`、`notes/scene-choices.md`。研究类开篇可选用 CARS（`notes/cars-intro.md`）。
+
+中文改稿先回到任务、判断和读者，再处理句法。来源、事实和专业边界是独立质量门；“自然中文”不能拿来证明内容已经可靠。来源索引见 `traditions/chinese-style-sources.md`。
 
 ## 一票否决
 
@@ -43,6 +45,10 @@
 7. 文气 (`qi`) — 一口气读下来是否断气？
 8. 得体 (`decorum`) — 语体与场景是否匹配？中文是否地道中文、英文是否地道英文？（英文纪律：`notes/english-knowledge-prose.md`）
 
+中文表达的复查顺序：先找主体、动作、对象、条件和结果；再检查名词化、弱动词、介词套式、长定语和无主体被动是否遮住信息。它们只是信号，不是禁词。详见 `traditions/yu-guangzhong-chinese-normal.md`、`traditions/ye-shengtao-public-writing.md`。
+
+任务型文字另看：当前状态是否清楚，动作是否明确，后果和下一步是否可见；详见 `traditions/ui-copy-task-writing.md`。
+
 详情：`principles/` · `notes/` · `traditions/` · `cases/`。
 
 **技能：** `pre-sign-review`（署名前全检）· `ai-prose-detect`（套话信号）· `mock-reader`（模拟复述）· `case-intake`（判例草稿）。模拟读者**不能**替代真人审阅。脚本：`detect_prose_signals.py`（命中≠定罪）· `case_coverage.py`（八维判例覆盖）。
@@ -58,5 +64,5 @@
 1. 分清模式与写前三问；钉读者与场景。  
 2. 先扫否决；触发即不合格。  
 3. 按风险选深度：pre-sign-review / ai-prose-detect / mock-reader。  
-4. 修改先大后小；一段一意；核心主张补 Warrant；声称对齐证据阶梯；事实核验独立成门。  
+4. 修改先大后小：结构 → 段落 → 句子 → 词语；一段一意；核心主张补 Warrant；声称对齐证据阶梯；事实核验独立成门。  
 5. 脱敏后 case-intake 入库；修法见 `MAINTENANCE.md`。
