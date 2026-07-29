@@ -1,59 +1,50 @@
 # Quality AI Writing
 
-> Before you sign your name — what makes a knowledge-work document actually good?
+A review framework for plans, reviews, reports, decision memos, READMEs, and technical documentation in Chinese or English.
 
-A living review standard with de-identified revision cases and bilingual writing-tradition notes. Not a prompt cookbook, not a humanizer plugin, and not a creative-writing course.
+Before a knowledge-work document carries an author's name, it should make its question, judgment, evidence, and boundary clear. This repository maintains standards, revision cases, source notes, and small tools for that review.
 
-**Scope:** plans, reviews, reports, decision memos, READMEs, and technical docs — in Chinese or English.
+## Sources and their use
 
----
+The repository gives priority to traceable primary texts, established writing works, authors' own essays, published institutional guidance, and signed articles in formal publications or established media. The [Chinese source index](traditions/chinese-style-sources.md) records each Chinese source, its publication or access route, and how this repository uses it.
 
-## What this repo includes / excludes
+Sources help identify a writing problem. They do not replace fact checking or professional judgment. Quotations, repository paraphrases, and repository rules are labeled separately; no rule here claims to speak for any one author or source.
 
-**Includes:** the review standard, principle pages, short tradition notes, and fictional or de-identified revision cases.  
-**Excludes:** raw identifiable drafts, client/employer/project material, and unpublished process ledgers.
+## Scope
 
-Cases must be fictionalized before intake; local drafts live in `inbox/` (not versioned).
+Use the framework to draft, revise, or review knowledge-work documents. It does not replace fact verification, domain review, legal or compliance review, or the author's responsibility for what they sign.
 
----
+## Contents
 
-## vs. humanizer tools
+- A maintainable review standard, principle notes, and process notes
+- Fictional or de-identified before-and-after revision cases
+- Source descriptions, necessary short quotations, and paraphrases
+- Installable review skills and validation scripts
 
-De-AI-ing covers only part of the prose layer. This work covers the full pre-signature judgment: intent, logic, sources, proportion, wording, rhythm, and appropriateness.
+The repository excludes identifiable client, employer, or project material, unpublished drafts, and unredacted working records. Keep local drafts in [`inbox/`](inbox/); that directory is not versioned.
 
----
+## The place of “de-AI-ing”
+
+Stock phrasing, translationese, and vague connectors are prose problems. This framework also checks judgment, reasoning, sources, claim strength, selection, and fit for the reader. Do not remove necessary terms, conditions, numbers, or responsible parties merely to make prose sound less machine-generated.
 
 ## Repository map
 
 | Path | Contents |
 |---|---|
-| [`STANDARD.md`](STANDARD.md) | Task modes + veto + eight dimensions + final judgment |
-| [`principles/`](principles/) | One file per dimension |
-| [`notes/`](notes/) | Process notes: veto, evidence ladder, CARS, Warrant, MECE, … |
-| [`cases/`](cases/) | Before/after revision cases (de-identified) |
-| [`traditions/`](traditions/) | Classic excerpts mapped to AI drafting |
-| [`skills/pre-sign-review/`](skills/pre-sign-review/) | Full pre-sign review (veto → eight dims) |
-| [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | Fast scan for AI-ish / stale prose signals |
-| [`skills/mock-reader/`](skills/mock-reader/) | Mock-reader paraphrase and questions |
-| [`skills/case-intake/`](skills/case-intake/) | Draft cases from before/after edits |
-| [`scripts/`](scripts/) | Case checks, prose heuristics, dimension coverage |
+| [`STANDARD.md`](STANDARD.md) | The complete pre-sign review standard |
+| [`principles/`](principles/) | Eight review dimensions: definition, questions, common problems, and repairs |
+| [`notes/`](notes/) | Short notes on drafting, structure, reasoning, revision, and readers |
+| [`cases/`](cases/) | Fictional or de-identified revision cases |
+| [`traditions/`](traditions/) | Source descriptions and writing references |
+| [`skills/`](skills/) | Pre-sign review, prose signals, mock reader, and case-intake skills |
+| [`scripts/`](scripts/) | Case validation and heuristic scans |
 
-Local drafts go in [`inbox/`](inbox/) (gitignored). See [`CHANGELOG.md`](CHANGELOG.md) and [`MAINTENANCE.md`](MAINTENANCE.md).
+## Using the repository
 
-### Install skills
-
-Copy each folder under `skills/` into your Agent skills path (on Windows, replace `~` with `%USERPROFILE%`):
-
-```text
-Cursor:      ~/.cursor/skills/pre-sign-review
-             ~/.cursor/skills/ai-prose-detect
-             ~/.cursor/skills/mock-reader
-             ~/.cursor/skills/case-intake
-Claude Code: ~/.claude/skills/...
-Codex:       ~/.codex/skills/...
-```
-
-### Local checks
+1. Read [`STANDARD.md`](STANDARD.md) to set the document's purpose, reader, and risk.
+2. For consequential documents, do a veto scan first and then review the eight dimensions.
+3. Use a skill for a focused check. To add a case, de-identify it locally first and follow [`MAINTENANCE.md`](MAINTENANCE.md).
+4. Run local checks:
 
 ```bash
 python -m unittest discover -s tests -v
@@ -61,24 +52,21 @@ python scripts/check_cases.py
 python scripts/case_coverage.py
 ```
 
----
-
 ## Status
 
-| Item | Value |
+| Item | Current value |
 |---|---|
-| Version | `0.7.0` |
-| Cases | `11` |
-| Tradition notes | `15` |
-| Process notes | `13` |
-| Skills | `4` |
-| Last revision | `2026-07-21` (full dim case coverage + pre-sign-review) |
+| Version | `0.8.1` |
+| Cases | 11 |
+| Source and writing references | 19 |
+| Skills | 4 |
+| Last revision | 2026-07-29: Chinese source index and public Chinese-copy review |
 
----
+See [`CHANGELOG.md`](CHANGELOG.md) for revisions and [`MAINTENANCE.md`](MAINTENANCE.md) for intake and maintenance rules.
 
 ## License
 
 - **Code and scripts:** [MIT License](LICENSE)
-- **Standard, principles, cases, traditions, and other text:** [CC BY 4.0](LICENSE-CONTENT)
+- **Standards, principles, cases, notes, and source descriptions:** [CC BY 4.0](LICENSE-CONTENT)
 
 Chinese README: [`README.md`](README.md).
