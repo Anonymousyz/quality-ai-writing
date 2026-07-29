@@ -2,7 +2,7 @@
 
 ## 出处
 
-Joseph M. Williams（后与 Joseph Bizup 等修订）, *Style: Lessons in Clarity and Grace*（亦称 *Style: Toward Clarity and Grace*，多版）。下文抓英文清晰写作的可操作命题；规则是启发式，不能直接当成中文语法条例。主映射：句子清晰、`qi`、英文 `decorum`。
+Joseph M. Williams（后与 Joseph Bizup 等修订）, *Style: Lessons in Clarity and Grace*（亦称 *Style: Toward Clarity and Grace*，多版）。**材料性质：** 英文写作指南。下文只提取可操作的英文清晰写作问题；不能直接当成中文语法条例。
 
 ## 原则一：人物做主语，动作落在动词上
 
