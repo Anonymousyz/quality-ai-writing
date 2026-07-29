@@ -1,33 +1,24 @@
 # Strunk & White《The Elements of Style》与 AI 写作
 
-## 出处
+## 材料说明
 
-William Strunk Jr. & E. B. White, *The Elements of Style*（多版；规则编号因版而异）。下文英文短摘取通行规则表述；中文为对照说明。规则是**英文写作启发式**，不能直接当成中文语法条例。
+William Strunk Jr. 与 E. B. White 合著 *The Elements of Style*，版本与规则编号有所差异。本页只引用通行的简短原则，并将其作为英文写作的参照。
 
-## 短摘一：Omit needless words
+**材料性质：** 经典英文写作指南。  
+**本仓使用：** 检查英文写作中的冗余、含混与不必要的抽象表达。
+
+## Omit needless words
 
 > Omit needless words.
 
-整本小书里最常被引用的一句。它不只要求「短」，要求**每个词都在负重**。对 AI 初稿：同义反复、程度副词空转、主语可替换的正确废话，都是 needless。
+这条原则提醒作者保留真正承担意义的词。它不要求机械压缩：限定条件、数字、责任主体和必要解释，都不是多余文字。
 
-### 映射
+## 具体而明确
 
-- `stale-words`：词/句级可删  
-- `selection`：段/材料级可删——整块「背景」若不服务判断，也是 needless  
-- `qi`：删掉空转后，节奏往往自己回来
+英文知识工作文档应尽量写清人物、动作、对象、条件和比较。空泛程度词、重复结论和无信息前缀，会让读者难以核对主张。
 
-## 短摘二：具体与有力
+## 使用边界
 
-书中反复要求用具体、确定的说法，避免含混（definite, specific, concrete）。AI 爱用升维抽象词盖住未想清的细节——评审上先问能否落到人、动作、数字、条件（见 `intent` / `proportion`）。
-
-## 短摘三：引文与证据态度
-
-正式引作证据时，要标明出处、忠实转述（各版在 quotations 相关规则中强调 documentary evidence 的处理）。映射 `sources`：关键论断旁要有可核线索；编造引文直接触发否决。
-
-## 边界
-
-- 英文规则 → 中文文档：吸收「信息量与具体性」，不吸收生搬的冠词/被动教条。  
-- 「Omit needless words」若删掉必要限定，会伤 `proportion`——该留的边界不是 needless。  
-- 与 Orwell 六条、韩愈「陈言务去」同族：都逼作者为自己的句子负责。
-
-详见 `principles/stale-words.md`、`principles/selection.md`、`principles/sources.md`。
+- 本页不把 Strunk & White 当作中文语法条例。
+- 来源核对和引文责任另见 [来源](../principles/sources.md)；本页不以模糊的“documentary evidence”归因代替具体出处。
+- 与 [陈言务去](../principles/stale-words.md)、[取舍](../principles/selection.md) 和 [文气](../principles/qi.md) 相关。
