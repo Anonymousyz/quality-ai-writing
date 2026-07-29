@@ -31,14 +31,14 @@
 | [`principles/`](principles/) | 每维一文件：定义、问句、病征、改法 |
 | [`notes/`](notes/) | 过程短注：否决、证据阶梯、CARS、Warrant、MECE 等 |
 | [`cases/`](cases/) | 脱敏后的第一稿→定稿对照判例 |
-| [`traditions/`](traditions/) | 中英名篇短摘与 AI 写作映射 |
+| [`traditions/`](traditions/) | 中英写作传统、中文文风来源索引与 AI 写作映射 |
 | [`skills/pre-sign-review/`](skills/pre-sign-review/) | 署名前全检（否决→八维） |
 | [`skills/ai-prose-detect/`](skills/ai-prose-detect/) | AI 腔 / 套话信号快检 |
 | [`skills/mock-reader/`](skills/mock-reader/) | 模拟读者复述与追问 |
 | [`skills/case-intake/`](skills/case-intake/) | 改稿判例草稿 |
 | [`scripts/`](scripts/) | 判例校验、信号启发式、维度覆盖 |
 
-本地草稿放 [`inbox/`](inbox/)（gitignore，不进版本库）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。
+本地草稿放 [`inbox/`](inbox/)（gitignore，不进版本库）。修法记录见 [`CHANGELOG.md`](CHANGELOG.md)，维护说明见 [`MAINTENANCE.md`](MAINTENANCE.md)。受版权保护的来源只保存出处、短摘录和转述；私人笔记与全文材料不进入仓库。
 
 ### 安装技能
 
@@ -67,12 +67,12 @@ python scripts/case_coverage.py
 
 | 项 | 值 |
 |---|---|
-| 版本 | `0.7.0` |
+| 版本 | `0.8.0` |
 | 案例数 | `11` |
-| 传统篇 | `15` |
+| 传统篇 | `19` |
 | 过程短注 | `13` |
 | 技能 | `4` |
-| 上次修法 | `2026-07-21`（八维判例全覆盖 + pre-sign-review） |
+| 上次修法 | `2026-07-29`（中文文风来源索引 + 自然中文与任务文案检查） |
 
 ---
 
