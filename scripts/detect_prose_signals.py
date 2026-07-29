@@ -2,7 +2,8 @@
 """Lightweight heuristic signals for AI-ish / hollow prose (stdlib only).
 
 Not a guilt detector. Hits are prompts for human judgment — see
-skills/ai-prose-detect/SKILL.md.
+skills/ai-prose-detect/SKILL.md. This script cannot decide whether a text has
+necessary content or a meaningful order; review notes/meaning-and-order.md.
 """
 from __future__ import annotations
 
@@ -107,7 +108,9 @@ def format_report(path: str | None, hits: list[Hit]) -> str:
         snippet = h.match.replace("\n", " ")
         lines.append(f"  L{h.line}\t[{h.signal_id}] {h.label}: {snippet}")
     lines.append(
-        "Note: signals ≠ verdict. See skills/ai-prose-detect/SKILL.md."
+        "Note: signals ≠ verdict. This script cannot determine whether content is necessary "
+        "or well ordered; see skills/ai-prose-detect/SKILL.md and "
+        "notes/meaning-and-order.md."
     )
     return "\n".join(lines) + "\n"
 
