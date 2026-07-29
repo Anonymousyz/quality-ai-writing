@@ -19,6 +19,10 @@
 | [tongcheng-yifa.md](tongcheng-yifa.md) | 义理·考据·词章；义法 |
 | [swales-cars.md](swales-cars.md) | 研究引言占位（CARS） |
 | [lanham-revising-prose.md](lanham-revising-prose.md) | 名义化急救；谁对谁做什么 |
+| [chinese-style-sources.md](chinese-style-sources.md) | 中文文风来源索引；出处与规则映射 |
+| [ye-shengtao-public-writing.md](ye-shengtao-public-writing.md) | 对读者负责；先查病因再改句子 |
+| [revision-and-literary-texture.md](revision-and-literary-texture.md) | 修改层次；材料、结构、字句与文气 |
+| [ui-copy-task-writing.md](ui-copy-task-writing.md) | 界面任务文案；状态、动作、后果与下一步 |
 
 **论证 / 分类工具（过程短注）：** `notes/toulmin-warrant.md`、`notes/mece.md`、`notes/cars-intro.md`、`notes/evidence-ladder.md`。
 
