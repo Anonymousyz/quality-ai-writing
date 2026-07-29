@@ -1,29 +1,25 @@
-# 传统打底
+# 写作材料与参照
 
-短摘 + 出处 + 对 AI 写作 / 本仓库维度的映射。规则均为启发式，引文请回原书核对。
+本目录保存来源说明、必要短摘与本仓库的使用边界。它不是名人语录集，也不把跨时代、跨语种的写作观点混成一套不可质疑的规则。
 
-| 篇目 | 主映射 |
+## 材料层级
+
+- **原典与经典著作：** 用于理解概念、问题与表达传统；准确引用须核对具体版本。
+- **作者原文与署名文章：** 用于提取可讨论的写作问题；转述须保留原文的范围。
+- **官方规范：** 用于界面、任务文案等明确场景；不外推为所有文体的规则。
+- **仓库判例：** 用于检验规则能否解释具体修改；均为虚构或脱敏材料。
+
+## 目录
+
+| 文件 | 主要参照 |
 |---|---|
-| [han-yu-da-li-yi-shu.md](han-yu-da-li-yi-shu.md) | stale-words, qi |
-| [orwell-politics-and-english.md](orwell-politics-and-english.md) | stale-words, proportion |
-| [wenxin-rongcai.md](wenxin-rongcai.md) | selection, stale-words |
-| [yu-guangzhong-chinese-normal.md](yu-guangzhong-chinese-normal.md) | decorum |
-| [strunk-white-elements.md](strunk-white-elements.md) | stale-words, selection, sources |
-| [zinsser-on-writing-well.md](zinsser-on-writing-well.md) | intent, stale-words |
-| [zhu-guangqian-cliche.md](zhu-guangqian-cliche.md) | stale-words；套板反应 |
-| [ye-shengtao-paragraph-reader.md](ye-shengtao-paragraph-reader.md) | 一段一意；读者意识 |
-| [pinker-sense-of-style.md](pinker-sense-of-style.md) | 知识的诅咒；读者优先 |
-| [williams-style.md](williams-style.md) | 主语—动词；从旧到新 |
-| [lu-ji-wenfu.md](lu-ji-wenfu.md) | 意—文损耗；警策句 |
-| [su-shi-cida.md](su-shi-cida.md) | 辞达；行止 |
-| [tongcheng-yifa.md](tongcheng-yifa.md) | 义理·考据·词章；义法 |
-| [swales-cars.md](swales-cars.md) | 研究引言占位（CARS） |
-| [lanham-revising-prose.md](lanham-revising-prose.md) | 名义化急救；谁对谁做什么 |
-| [chinese-style-sources.md](chinese-style-sources.md) | 中文文风来源索引；出处与规则映射 |
-| [ye-shengtao-public-writing.md](ye-shengtao-public-writing.md) | 对读者负责；先查病因再改句子 |
-| [revision-and-literary-texture.md](revision-and-literary-texture.md) | 修改层次；材料、结构、字句与文气 |
-| [ui-copy-task-writing.md](ui-copy-task-writing.md) | 界面任务文案；状态、动作、后果与下一步 |
+| [chinese-style-sources.md](chinese-style-sources.md) | 中文写作材料索引与出处说明 |
+| [ye-shengtao-public-writing.md](ye-shengtao-public-writing.md) | 面向读者的公共写作与修改 |
+| [revision-and-literary-texture.md](revision-and-literary-texture.md) | 内容、结构、字句与文气 |
+| [ui-copy-task-writing.md](ui-copy-task-writing.md) | 界面与任务文案 |
+| [yu-guangzhong-chinese-normal.md](yu-guangzhong-chinese-normal.md) | 中文句法与翻译腔 |
+| 其余传统篇 | 古典文论与英文写作的参照说明 |
 
-**论证 / 分类工具（过程短注）：** `notes/toulmin-warrant.md`、`notes/mece.md`、`notes/cars-intro.md`、`notes/evidence-ladder.md`。
+## 使用原则
 
-**来源使用：** 古典文论与现代指南提供问题与工具；跨传统呼应不等于科学定律。经验性规则一律当启发式；归因与引文以原书为准。
+材料提供问题、例证和方法；作者仍须判断它是否适合当前文体、读者和事实条件。需要准确引用时，请回原书、原刊或正式版本核对；本仓库的短摘与转述不代替原文。
